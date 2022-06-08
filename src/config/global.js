@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: '',
+    descripcionCurso:
+      'Durante el siguiente componente, se explica el tema presente simple, que es un tiempo verbal fundamental; seguidamente, se profundiza en los pronombres de sujeto y objeto, para hablar de quién realiza y a quién afecta la acción en una oración; y por último, se indica vocabulario sobre información personal que, junto al presente simple, es de ayuda para presentarse a sí mismo de manera competente.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -22,14 +23,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Introducción al tiempo presente simple',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Conceptos gramaticales',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Tercera persona singular',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Estructuras',
+            hash: 't_1_3',
           },
         ],
       },
@@ -38,14 +51,28 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Pronombres personales en función del sujeto y el objeto',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Pronombres de sujeto / <em>Subject pronouns</em>',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Pronombres de objeto / <em>Object pronouns</em>',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<em>Personal information</em>',
         desarrolloContenidos: true,
       },
     ],
@@ -90,32 +117,61 @@ export default {
   },
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      texto:
+        'Equipo académico - Teaching Centre in Colombia. (2021). <em>Estructura, reglas y ejemplos del present simple en inglés</em>. British Council Colombia.',
+      tipo: 'Artículo Web',
+      link: 'https://www.britishcouncil.co/blog/aprende-ingles/present-simple',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      texto:
+        'Inglés Fácil - ALEMA. (2018). <em>Pronombres Objeto En Inglés Diferencia Entre Object Pronouns y Subject Pronouns | Lección # 29</em> [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ftLQRXDcr40',
+    },
+    {
+      texto:
+        'Do you speak English? (2015). <em>Personal Information / La Información Personal (Repaso)</em> [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=IVPE_HydoVA',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: '<em>Grammatical structure</em> / Estructura gramatical',
+      significado:
+        'forma en la que las palabras se unen y configuran para formar oraciones y expresar ideas o enunciados.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: '<em>Personal information</em> / Información personal',
+      significado:
+        'datos personales de cada individuo, los cuales lo identifican, lo describen y le dan identidad.',
+    },
+    {
+      termino: '<em>Pronouns</em> / Pronombres',
+      significado:
+        'conjunto de palabras, como, por ejemplo: yo, ella, él, usted, eso, nosotros o ellos, que en un idioma se usan como sustitutos de sustantivos o frases nominales y cuyos referentes se nombran o entienden en el contexto; estos pueden ser pronombres de sujeto o pronombres de objeto, pero también existen otros tipos, como pronombres posesivos, pronombres reflexivos, etc.',
+    },
+    {
+      termino: '<em>Verb tense</em< / Tiempo verbal',
+      significado:
+        'cada uno de los modelos o grupos en los que generalmente se divide la conjugación verbal de una lengua para expresar diferencias de tiempo.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Do you speak English? (2015). Personal Information / La Información Personal (Repaso) [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=IVPE_HydoVA',
+    },
+    {
+      referencia:
+        'Equipo académico - Teaching Centre in Colombia. (2021). Estructura, reglas y ejemplos del present simple en inglés. British Council Colombia.',
+      link: 'https://www.britishcouncil.co/blog/aprende-ingles/present-simple',
+    },
+    {
+      referencia:
+        'Inglés Fácil - ALEMA. (2018). Pronombres Objeto En Inglés Diferencia Entre Object Pronouns y Subject Pronouns | Lección # 29 [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=ftLQRXDcr40',
     },
   ],
   creditos: {

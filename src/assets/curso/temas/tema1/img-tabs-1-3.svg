@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="295" height="91" viewBox="0 0 295 91">
+  <g id="Grupo_84010" data-name="Grupo 84010" transform="translate(6006 4634)">
+    <g id="Rectángulo_34310" data-name="Rectángulo 34310" transform="translate(-6006 -4604)" fill="#fff" stroke="#ff5f65" stroke-width="1">
+      <rect width="85" height="27" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="84" height="26" rx="9.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_34311" data-name="Rectángulo 34311" transform="translate(-6006 -4572)" fill="#fff" stroke="#ff5f65" stroke-width="1">
+      <rect width="85" height="27" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="84" height="26" rx="9.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_34314" data-name="Rectángulo 34314" transform="translate(-5796 -4604)" fill="#fff" stroke="#ff5f65" stroke-width="1">
+      <rect width="85" height="27" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="84" height="26" rx="9.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_34315" data-name="Rectángulo 34315" transform="translate(-5901 -4604)" fill="#fff" stroke="#ff5f65" stroke-width="1">
+      <rect width="85" height="27" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="84" height="26" rx="9.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_34316" data-name="Rectángulo 34316" transform="translate(-5796 -4572)" fill="#fff" stroke="#ff5f65" stroke-width="1">
+      <rect width="85" height="27" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="84" height="26" rx="9.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_34317" data-name="Rectángulo 34317" transform="translate(-5901 -4572)" fill="#fff" stroke="#ff5f65" stroke-width="1">
+      <rect width="85" height="27" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="84" height="26" rx="9.5" fill="none"/>
+    </g>
+    <text id="Estructura" transform="translate(-6006 -4615)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Estructura</tspan></text>
+    <text id="Do" transform="translate(-5964 -4585)" fill="#ff5f65" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-9.508" y="0">Do</tspan></text>
+    <text id="Does" transform="translate(-5964 -4553)" fill="#ff5f65" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-17.77" y="0">Does</tspan></text>
+    <text id="Don_t" data-name="Don’t" transform="translate(-5753 -4585)" fill="#ff5f65" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-17.906" y="0">Don’t</tspan></text>
+    <text id="not" transform="translate(-5858 -4585)" fill="#ff5f65" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-11.473" y="0">not</tspan></text>
+    <text id="Doesn_t" data-name="Doesn’t" transform="translate(-5752 -4553)" fill="#ff5f65" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-26.168" y="0">Doesn’t</tspan></text>
+    <text id="not-2" data-name="not" transform="translate(-5858 -4553)" fill="#ff5f65" font-size="16" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="-11.473" y="0">not</tspan></text>
+    <text id="_" data-name="+" transform="translate(-5918 -4581)" fill="#3c3fa7" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">+</tspan></text>
+    <text id="_2" data-name="+" transform="translate(-5918 -4550)" fill="#3c3fa7" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">+</tspan></text>
+    <text id="_3" data-name="=" transform="translate(-5812 -4581)" fill="#3c3fa7" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">=</tspan></text>
+    <text id="_4" data-name="+" transform="translate(-5812 -4550)" fill="#3c3fa7" font-size="24" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">+</tspan></text>
+  </g>
+</svg>
