@@ -85,6 +85,27 @@ export default {
       &::before
         font-size: 24px
         color: white
+.slider-content-cf-v3
+  width: 100%
+  .slyder-f__btn
+    padding: 0 !important
+    width: 39px
+    height: 39px
+    margin-right: auto
+    margin-left: auto
+    border-radius: 50%
+    background-color: #6B8DFF
+    display: flex
+    align-content: center
+    justify-content: center
+    i
+      height: 20px
+      display: flex
+      justify-content: center
+      text-align: center
+      &::before
+        font-size: 24px
+        color: white
 .columnas-5
   width: 20%
   padding-right: 1rem
@@ -107,4 +128,14 @@ export default {
     text-align: center
   .color-blue-td
     background-color: #E1E8FF
+.tabs-a
+  .tabs-a__tab
+    background-color: #E8E8E8
+.table-custom-2
+  border: 2px solid #6B8DFF
+  border-radius: 20px
+  min-width: 1200px
+  table
+    border: none
+    border-spacing: 0
 </style>

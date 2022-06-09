@@ -62,7 +62,7 @@
             p.ps-3 La próxima semana es el campeonato.
 
     .titulo-segundo.color-acento-contenido.mb-5
-      h2 1.1 Conceptos gramaticales
+      h2#t_1_1 1.1 Conceptos gramaticales
     
     p Antes de entrar de lleno a la estructura gramatical de las oraciones en presente simple, se debe entender cómo se conjugan correctamente los verbos en este tiempo.
       br
@@ -213,7 +213,7 @@
               span Aqui va el audio
 
     .titulo-segundo.color-acento-contenido.mb-5
-      h2 1.2 Tercera persona singular
+      h2#t_1_2 1.2 Tercera persona singular
     
     p.mb-5 Para la conjugación de verbos en presente simple para la tercera persona singular, existen 6 reglas que se detallan a continuación:
 
@@ -330,12 +330,12 @@
               span Aqui va el audio
 
     .titulo-segundo.color-acento-contenido.mb-5
-      h2 1.3 Estructuras
+      h2#t_1_3 1.3 Estructuras
     
     p.mb-5 Las siguientes son las formas para estructurar oraciones que afirmen, nieguen o hagan preguntas sobre diferentes enunciados. La configuración de estas oraciones es un poco diferente a la del idioma español, razón por la cual se debe estar atento al orden y uso de las palabras, como se describe a continuación:
 
     TabsB.color-primario.mb-5.tabs-custom
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/temas/tema1/pestanas-1.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
             h3.text-title-tabs Frases afirmativas en presente simple
@@ -363,7 +363,7 @@
                   span Aqui va el audio
                 p.ms-0.ms-md-4.ps-3 El perro duerme muy bien.
 
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/curso/temas/tema1/pestanas-2.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
             h3.text-title-tabs Frases negativas en presente simple
@@ -388,7 +388,7 @@
                 .col
                   p.mb-0 <b>Warning! / ¡Advertencia! </b> <br>
                     | Debido al uso del verbo auxiliar, el verbo principal siempre debe ir en forma base.
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/curso/temas/tema1/pestanas-3.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
             h3.text-title-tabs Contracciones / Contractions
@@ -416,7 +416,7 @@
                 .col
                   p.mb-0 <b>Warning! / ¡Advertencia! </b> <br>
                     | Una regla general es la de evitar usar contracciones en contextos formales, como conversaciones, documentos y discursos académicos, oficiales o laborales. Las contracciones son más usadas en contextos informales, como conversaciones con amigos o personas de confianza, en la cotidianidad.
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/curso/temas/tema1/pestanas-4.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
             h3.text-title-tabs Contracciones / Contractions
@@ -442,13 +442,13 @@
                   p.mb-0 <b>Warning! / ¡Advertencia! </b> <br>
                     | En las estructuras interrogativas, el auxiliar va al principio de la oración.
 
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
+      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/curso/temas/tema1/pestanas-5.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
             h3.text-title-tabs Preguntas de Sí o No / Yes or No questions
             p.w-100 También conocidas como <b>“preguntas cerradas”</b>, estas preguntas plantean un escenario al que se puede responder afirmativa o negativamente. Esto se puede hacer con respuestas completas o respuestas cortas.
             .d-flex.flex-wrap.w-100.my-5
-              .d-flex.flex-wrap.col-lg-6.p-2
+              .d-flex.flex-wrap.col-xl-6.p-2.mb-5
                 .w-100.p-4.d-flex.flex-wrap(style="background-color: white; border-radius: 5px;")
                   .col-md-5.col-lg-4.mb-4
                     img(src="@/assets/curso/temas/tema1/img-tabs-2.svg" style="max-width: 125px; margin-top: -3rem")
@@ -468,7 +468,7 @@
                       .audio-2.mb-1
                         span Aqui va el audio
                       p.mb-0.ps-3 Sí.
-              .d-flex.flex-wrap.col-lg-6.p-2
+              .d-flex.flex-wrap.col-xl-6.p-2.mb-5
                 .w-100.p-4.d-flex.flex-wrap(style="background-color: white; border-radius: 5px;")
                   .col-md-5.col-lg-4.mb-4
                     img(src="@/assets/curso/temas/tema1/img-tabs-2.svg" style="max-width: 125px; margin-top: -3rem")
@@ -516,13 +516,184 @@
     h3 Preguntas informativas / Information questions 
     p.mb-5 También conocidas como “preguntas abiertas”, son preguntas cuya función es pedir información al interlocutor. A diferencia de las preguntas cerradas, que solo confirman o niegan una afirmación, las preguntas abiertas en inglés tienen un uso específico según el contexto y lugar donde se usen (piden un dato en específico). Las preguntas abiertas en inglés se caracterizan por tener al principio de su estructura una palabra que incluye las letras W y H en ellas:
 
+    .d-flex.flex-wrap.mb-5
+      .col-lg-3.mb-4.mb-lg-0.mx-auto
+        img(src="@/assets/curso/temas/tema1/img-3.jpg")
+      .col-lg-9.ps-lg-3
+        TabsA.color-acento-contenido
+          .tarjeta.color-acento-botones--borde.p-4(titulo="1. What" style="background-color: #FFDFE0; border: none;")
+            h4 What
+            p Pide información sobre algo, incluyendo acciones, objetos, características o información en general. Corresponde a la pregunta <b>¿qué?</b>
+            .col-xl-10
+              span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
+              .audio.mb-1
+                span Aqui va el audio
+              p.ps-3 ¿Qué haces los fines de semana?
+              .audio.mb-1
+                span Aqui va el audio
+              p.ps-3 ¿Qué desayunas?
+              .audio.mb-1
+                span Aqui va el audio
+              p.ps-3 ¿Qué te gusta?
+          
+          .tarjeta.color-acento-botones--borde.p-4(titulo="2. Where" style="background-color: #FFDFE0; border: none;")
+            h4 Where
+            p Pregunta por un <b>lugar</b> o una <b>ubicación</b> según el contexto de la pregunta.  Corresponde a la pregunta <b>¿dónde?</b>
+            .col-xl-10
+              span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
+              .audio.mb-1
+                span Aqui va el audio
+              p.ps-3 ¿Dónde pones tus zapatos?
+              .audio.mb-1
+                span Aqui va el audio
+              p.ps-3 ¿Dónde vas de vacaciones?
+              .audio.mb-1
+                span Aqui va el audio
+              p.ps-3 ¿Dónde estudias?
+          
+          .tarjeta.color-acento-botones--borde.p-4(titulo="3. When" style="background-color: #FFDFE0; border: none;")
+            h4 When
+            p Pregunta por el <b>momento</b> en que una acción se realiza o tuvo lugar. Corresponde a la pregunta <b>¿cuándo?</b>
+            span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
+            .d-flex.flex-wrap.w-100
+              .col-xl-6.pe-xl-4
+                .audio.mb-1
+                  span Aqui va el audio
+                p.ps-3 ¿Cuándo comes?
+              .col-xl-6.pe-xl-4
+                .audio.mb-1
+                  span Aqui va el audio
+                p.ps-3 ¿Cuándo viajas?
+            .col-xl-10
+              .audio.mb-1
+                span Aqui va el audio
+              p.ps-3 ¿Cuándo trabaja tu hermana?
+            .d-block.p-4.px-5(style="background-color: #A6BBFF; border-radius: 5px")
+              p Generalmente, no se utiliza para preguntar la hora, porque en esos casos se usa un complemento de la pregunta <em style="color: #FF5F65; font-weight: bold;">WHAT → What time?</em>
+              .audio.mb-1
+                span Aqui va el audio
+              p.mb-0.ps-3 ¿Qué hora es?
 
+          .tarjeta.color-acento-botones--borde.p-4(titulo="4. Who" style="background-color: #FFDFE0; border: none;")
+            h4 Who
+            p Pregunta por <b>alguien</b>, por una <b>persona</b>. Con la pregunta <em style="color: #FF5F65; font-weight: bold;">WHO</em>, se busca obtener un nombre, ya sea propio o común, que indique al sujeto u objeto. Corresponde a las preguntas <b>¿quién?</b> o <b>¿a quién?</b>
+            span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
+            .d-flex.flex-wrap.w-100
+              .col-xl-6.pe-xl-4
+                .audio.mb-1
+                  span Aqui va el audio
+                p.ps-3 ¿A quién conoces?
+              .col-xl-6.pe-xl-4
+                .audio.mb-1
+                  span Aqui va el audio
+                p.ps-3 ¿Para quién trabajas?
+            .col-xl-10
+              .audio.mb-1
+                span Aqui va el audio
+              p.ps-3 ¿Quién vive aquí?
+            .d-block.p-4.px-5(style="background-color: #A6BBFF; border-radius: 5px")
+              p.mb-0 <b>Warning! / ¡Advertencia!</b><br>
+                |* Cuando se usa <em style="color: #FF5F65; font-weight: bold;">WHO</em> para buscar el sujeto de la oración y no el objeto, la pregunta no tiene ni sujeto ni auxiliar en los tiempos simples; sin embargo, el verbo se conjuga como tercera persona del singular.
+          
+          .tarjeta.color-acento-botones--borde.p-4(titulo="5. Why" style="background-color: #FFDFE0; border: none;")
+            h4 Why
+            p Pregunta por un <b>motivo</b> o una <b>razón</b>. Corresponde a la pregunta <b>¿por qué?</b>
+            span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
+            .col-xl-10
+              .audio.mb-1
+                span Aqui va el audio
+              p.ps-3 ¿Por qué te comportas así?
+              .audio.mb-1
+                span Aqui va el audio
+              p.ps-3 ¿Por qué el cielo está tan gris?
+              .audio.mb-1
+                span Aqui va el audio
+              p.ps-3 ¿Por qué no?
+      
+          .tarjeta.color-acento-botones--borde.p-4(titulo="6. How" style="background-color: #FFDFE0; border: none;")
+            h4 How
+            p Pregunta por el <b>modo</b> o la <b>forma</b> en que se realiza una acción. Corresponde a la pregunta <b>¿cómo?</b>
+            span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
+            .d-flex.flex-wrap.w-100
+              .col-xl-6.pe-xl-4
+                .audio.mb-1
+                  span Aqui va el audio
+                p.ps-3 ¿Cómo aprendes?
+              .col-xl-6.pe-xl-4
+                .audio.mb-1
+                  span Aqui va el audio
+                p.ps-3 ¿Cómo funciona eso?
+            .col-xl-10
+              .audio.mb-1
+                span Aqui va el audio
+              p.ps-3 ¿Cómo limpias tu casa?
+            .d-block.p-4.px-5(style="background-color: #A6BBFF; border-radius: 5px")
+              p <b>Warning! / ¡Advertencia!</b> <br>
+                |Cuando se usa con complementos, puede cambiar radicalmente su significado según el complemento y el tiempo gramatical en el que aparezca. Puede aparecer en oraciones como:
+              .d-flex.flex-wrap.w-100
+                .col-xl-6.pe-xl-4
+                  .audio.mb-1
+                    span Aqui va el audio
+                  p.ps-3 ¿Cómo estás?
+                .col-xl-6.pe-xl-4
+                  .audio.mb-1
+                    span Aqui va el audio
+                  p.ps-3 ¿Cuántos años tienes?
+              .col-xl-10
+                .audio.mb-1
+                  span Aqui va el audio
+                p.mb-0.ps-3 ¿Cuánto helado quieres?
 
     p.mb-5 En general, la estructura de las preguntas informativas es la siguiente:
     
     .titulo-sexto.color-acento-contenido
       h5 Tabla 4
       span Estructura preguntas informativas
+
+    .table-responsive.mb-5
+      .table-custom-2
+        table
+          tr
+            td(style="border-right: 2px solid #6B8DFF; border-bottom: 2px solid #6B8DFF; background-color: #E1E8FF; border-top-left-radius: 20px")
+              p.fw-bold.mb-0 WH Word
+            td(style="border-right: 2px solid #6B8DFF; border-bottom: 2px solid #6B8DFF; background-color: #E1E8FF;")
+              p.fw-bold.mb-0 Auxiliar
+            td(style="border-right: 2px solid #6B8DFF; border-bottom: 2px solid #6B8DFF; background-color: #E1E8FF;")
+              p.fw-bold.mb-0 Sujeto
+            td(style="border-right: 2px solid #6B8DFF; border-bottom: 2px solid #6B8DFF; background-color: #E1E8FF;")
+              p.fw-bold.mb-0 Verbo
+            td(style="border-right: 2px solid #6B8DFF; border-bottom: 2px solid #6B8DFF; background-color: #E1E8FF;")
+              p.fw-bold.mb-0 Complemento
+            td(style="border-bottom: 2px solid #6B8DFF; background-color: #E1E8FF; border-top-right-radius: 20px; width: 25%")
+              p.fw-bold.mb-0.text-center ?
+          tr
+            td(style="border-right: 2px solid #6B8DFF; border-bottom: 2px solid #6B8DFF;")
+              p.fw-bold.mb-0.text-center(style="color: #FF5F65;") <em>What</em>
+            td(style="border-right: 2px solid #6B8DFF; border-bottom: 2px solid #6B8DFF;")
+              p.fw-bold.mb-0.text-center(style="color: #FF5F65;") <em>do</em>
+            td(style="border-right: 2px solid #6B8DFF; border-bottom: 2px solid #6B8DFF;")
+              p.fw-bold.mb-0.text-center(style="color: #FF5F65;") <em>you</em>
+            td(style="border-right: 2px solid #6B8DFF; border-bottom: 2px solid #6B8DFF;")
+              p.fw-bold.mb-0.text-center(style="color: #FF5F65;") <em>buy</em>
+            td(style="border-right: 2px solid #6B8DFF; border-bottom: 2px solid #6B8DFF;")
+              p.fw-bold.mb-0.text-center(style="color: #FF5F65;") <em>in the mall</em>
+            td(style="border-bottom: 2px solid #6B8DFF; width: 25%")
+              .audio
+                span Aqui va el audio
+          tr
+            td(style="border-right: 2px solid #6B8DFF;")
+              p.fw-bold.mb-0.text-center(style="color: #FF5F65;") <em>Where</em>
+            td(style="border-right: 2px solid #6B8DFF;")
+              p.fw-bold.mb-0.text-center(style="color: #FF5F65;") <em>does</em>
+            td(style="border-right: 2px solid #6B8DFF;")
+              p.fw-bold.mb-0.text-center(style="color: #FF5F65;") <em>she</em>
+            td(style="border-right: 2px solid #6B8DFF;")
+              p.fw-bold.mb-0.text-center(style="color: #FF5F65;") <em>go</em>
+            td(style="border-right: 2px solid #6B8DFF;")
+              p.fw-bold.mb-0.text-center(style="color: #FF5F65;") <em>on weekends</em>
+            td(style="width: 25%")
+              .audio
+                span Aqui va el audio
 
     p.mb-5 Ahora, observe todo el resumen del presente simple a partir de un verbo en sus tres formas: 
 
@@ -531,6 +702,68 @@
       span Resumen de conjugación de estructuras
     
     h3 <em>Present Simple: to eat</em> (comer)
+
+    .d-flex.flex-wrap(style="margin-top: 90px")
+      .col-12.col-md-7.col-xl-4.p-3.mx-auto.mb-5
+        .tarjeta.p-4(style="background-color: #C4D1FF;")
+          img.mx-auto.mb-3(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 117px; margin-top: -81px;")
+          p.fw-bold.text-center.mb-4 Afirmativa
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+      .col-12.col-md-7.col-xl-4.p-3.mx-auto.mb-5
+        .tarjeta.p-4(style="background-color: #FFF0B5;")
+          img.mx-auto.mb-3(src="@/assets/curso/temas/tema1/img-5.svg" style="max-width: 117px; margin-top: -81px;")
+          p.fw-bold.text-center.mb-4 Negativa
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+      .col-12.col-md-7.col-xl-4.p-3.mx-auto.mb-5
+        .tarjeta.p-4(style="background-color: #FFBFC1;")
+          img.mx-auto.mb-3(src="@/assets/curso/temas/tema1/img-6.svg" style="max-width: 117px; margin-top: -81px;")
+          p.fw-bold.text-center.mb-4 Interrogativa
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
+          .audio
+            span Aqui va el audio
 </template>
 
 <script>
