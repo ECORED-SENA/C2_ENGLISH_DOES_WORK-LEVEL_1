@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2
+        span(style="color: white;") 2
       h1 Pronombres personales en función del sujeto y el objeto
 
     p.mb-5 Un pronombre es una palabra que se usa para hacer referencia a algo o alguien sin usar su nombre propio o común. Dentro de los pronombres, se pueden hallar diferentes tipos, pero en particular los pronombres de sujeto y objeto le brindan información al lector sobre quién realiza la acción y hacia quién o qué se dirige dicha acción.
@@ -90,7 +90,7 @@
         p.ps-3 ¿Por qué te comportas así?
     p.mb-5 Para los pronombres de sujeto, se deben tener en cuenta algunas condiciones:
 
-    .d-flex.flex-wrap.p-4.mb-5(style="background-color: #FFE891;")
+    .d-flex.flex-wrap.py-4.px-lg-4.mb-5(style="background-color: #FFE891;")
       SlyderF.slider-content-cf-v3.align-items-center
         .d-flex.flex-wrap.align-items-center
           .col-lg-4.mb-4.mb-lg-0.mx-auto
@@ -266,31 +266,96 @@
       h5 Tabla 8
       span La persona gramatical en los pronombres
     .d-flex.flex-wrap.mb-5
-      .col-xl-7.pe-xl-2.mx-auto
+      .col-12.col-xl-7.pe-xl-2.mx-auto
         img(src="@/assets/curso/temas/tema2/img-7.svg").mb-4.mb-md-2
+        .table-responsive.mb-4.mb-xl-0
+          table.table-custom-1(style="min-width: 505px")
+            tr
+              td( colspan="2")
+              td(style="width: 28%")
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">Subject pronouns</em>
+              td(style="width: 28%")
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">Object pronouns</em>
+            tr
+              td(rowspan="5")
+                p.fw-bold.text-center Singular
+              td
+                p.fw-bold.mb-0 1era persona
+              td.color-blue-td
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> I </em>
+              td(style="background-color: #FFDFE0")
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">me</em>
+            tr
+              td
+                p.fw-bold.mb-0 2nda persona
+              td.color-blue-td
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> you </em>
+              td(style="background-color: #FFDFE0")
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">you</em>
+            tr
+              td(rowspan="3")
+                p.fw-bold.mb-0 3era persona
+              td.color-blue-td
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> he </em>
+              td(style="background-color: #FFDFE0")
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">you</em>
+            tr
+              td.color-blue-td
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> him </em>
+              td(style="background-color: #FFDFE0")
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">her</em>
+            tr
+              td.color-blue-td
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> it </em>
+              td(style="background-color: #FFDFE0")
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">it</em>
+            tr
+              td(rowspan="3")
+                p.fw-bold.text-center Plural
+              td
+                p.fw-bold.mb-0 1era persona
+              td.color-blue-td
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> we </em>
+              td(style="background-color: #FFDFE0")
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">us</em>
+            tr
+              td
+                p.fw-bold.mb-0 2nda persona
+              td.color-blue-td
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> you </em>
+              td(style="background-color: #FFDFE0")
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">you</em>
+            tr
+              td
+                p.fw-bold.mb-0 3era persona
+              td.color-blue-td
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> they </em>
+              td(style="background-color: #FFDFE0")
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">them</em>
       .col-xl-5.ps-xl-2.mx-auto
-        .p-4.p-xl-5.w-100(style="background-color: #E1E8FF")
+        .p-4.px-xl-5.w-100(style="background-color: #E1E8FF")
           p De esta manera, se pueden reemplazar los sustantivos de una oración por <b>pronombres de sujeto y objeto:</b>
           span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo: 
-          .audio
+          .audio.mb-2
             span Aqui va el audio
           p.ps-3 Ana <b>llama</b> a Javier. 
-          .audio
+          .audio.mb-2
             span Aqui va el audio
           p.ps-3 Ella lo <b>llama</b> (a él).
-          .audio
+          .audio.mb-2
             span Aqui va el audio
           p.ps-3 Victor y yo <b>trabajamos</b> con Lucia y Laura.
-          .audio
+          .audio.mb-2
             span Aqui va el audio
           p.ps-3 Nosotros <b>trabajamos</b> con ellas.
-          .audio
+          .audio.mb-2
             span Aqui va el audio
           p.ps-3 Hector nos <b>está mirando</b> a Sandra y a mí.
-          .audio
+          .audio.mb-2
             span Aqui va el audio
-          p.ps-3 Él <b>está mirándonos.</b>
+          p.mb-1.ps-3 Él <b>está mirándonos.</b>
 
+    
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: '',
+    componenteFormativo: "Let's introduce ourselves!¡Presentémonos!",
     descripcionCurso:
       'Durante el siguiente componente, se explica el tema presente simple, que es un tiempo verbal fundamental; seguidamente, se profundiza en los pronombres de sujeto y objeto, para hablar de quién realiza y a quién afecta la acción en una oración; y por último, se indica vocabulario sobre información personal que, junto al presente simple, es de ayuda para presentarse a sí mismo de manera competente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),

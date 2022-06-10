@@ -46,6 +46,8 @@ export default {
   padding: .8rem
   margin-bottom: 1rem
 .slider-content-cf
+  .slyder-f__main
+    width: calc(100% - 90px) !important
   .slyder-f__btn
     padding: 0 !important
     width: 39px
@@ -66,6 +68,8 @@ export default {
         font-size: 24px
         color: #6B8DFF
 .slider-content-cf-v2
+  .slyder-f__main
+    width: calc(100% - 90px) !important
   .slyder-f__btn
     padding: 0 !important
     width: 39px
@@ -86,6 +90,8 @@ export default {
         font-size: 24px
         color: white
 .slider-content-cf-v3
+  .slyder-f__main
+    width: calc(100% - 90px) !important
   width: 100%
   .slyder-f__btn
     padding: 0 !important
@@ -106,6 +112,29 @@ export default {
       &::before
         font-size: 24px
         color: white
+.slider-content-cf-v4
+  .slyder-f__main
+    width: calc(100% - 90px) !important
+  width: 100%
+  .slyder-f__btn
+    padding: 0 !important
+    width: 39px
+    height: 39px
+    margin-right: auto
+    margin-left: auto
+    border-radius: 50%
+    background-color: white
+    display: flex
+    align-content: center
+    justify-content: center
+    i
+      height: 20px
+      display: flex
+      justify-content: center
+      text-align: center
+      &::before
+        font-size: 24px
+        color: #6B8DFF
 .columnas-5
   width: 20%
   padding-right: 1rem

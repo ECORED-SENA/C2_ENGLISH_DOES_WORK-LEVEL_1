@@ -12,7 +12,7 @@
       h5 Tabla 1
       span Condiciones presente simple
     
-    .d-flex.flex-wrap.px-4.pt-4.mb-5(style="background-color: #6B8DFF;")
+    .d-flex.flex-wrap.px-2.px-lg-4.pt-4.mb-5(style="background-color: #6B8DFF;")
       .col-lg-4.mb-4.mb-lg-0.mx-auto
         img(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 262px").mx-auto
       SlyderF.slider-content-cf.col-12.col-lg-8.align-items-center
