@@ -54,8 +54,11 @@
                       img(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 24px").ms-2
 
         .d-flex.flex-wrap.align-items-center
-          .col-lg-4.mb-4.mb-lg-0.mx-auto
-            img(src="@/assets/curso/temas/tema3/img-4.svg" style="max-width: 325px").mx-auto
+          .col-lg-4.mb-4.mb-lg-0.mx-auto.h-100
+            img(src="@/assets/curso/temas/tema3/img-4.svg" style="max-width: 325px").mx-auto.mb-5
+            .indicador__container
+              .indicador--click(v-if="mostrarIndicador")
+              img(src="@/assets/curso/temas/tema3/vocabulary.svg" style="max-width: 209px; cursor: pointer;" @click="modal1 = true; mostrarIndicador = false;").mx-auto
           .col-12.col-lg-8.py-4
             .tarjeta-content-t2
               .container-card
@@ -82,7 +85,10 @@
         
         .d-flex.flex-wrap.align-items-center
           .col-lg-4.mb-4.mb-lg-0.mx-auto
-            img(src="@/assets/curso/temas/tema3/img-5.svg" style="max-width: 325px").mx-auto
+            img(src="@/assets/curso/temas/tema3/img-5.svg" style="max-width: 325px").mx-auto.mb-5
+            .indicador__container
+              .indicador--click(v-if="mostrarIndicador2")
+              img(src="@/assets/curso/temas/tema3/vocabulary.svg" style="max-width: 209px; cursor: pointer;" @click="modal2 = true; mostrarIndicador2 = false;").mx-auto
           .col-12.col-lg-8.py-4
             .tarjeta-content-t2
               .container-card
@@ -105,8 +111,11 @@
                 img(src="@/assets/curso/temas/tema3/img-6.jpg")
 
         .d-flex.flex-wrap.align-items-center
-          .col-lg-4.mb-4.mb-lg-0.mx-auto.mt-auto
-            img(src="@/assets/curso/temas/tema3/img-7.svg" style="max-width: 310px").mx-auto.mb-4
+          .col-lg-4.mb-4.mb-lg-0.mx-auto
+            img(src="@/assets/curso/temas/tema3/img-7.svg" style="max-width: 310px").mx-auto.mb-5
+            .indicador__container
+              .indicador--click(v-if="mostrarIndicador3")
+              img(src="@/assets/curso/temas/tema3/vocabulary.svg" style="max-width: 209px; cursor: pointer;" @click="modal3 = true; mostrarIndicador3 = false;").mx-auto
           .col-12.col-lg-8.py-4
             .tarjeta-content-t2
               .container-card
@@ -135,8 +144,11 @@
                   p.mb-0.text-white.py-3.px-4 En inglés, los números de las direcciones <b>se dicen dígito por dígito</b>, no el número completo.
 
         .d-flex.flex-wrap.align-items-center
-          .col-lg-4.mb-4.mb-lg-0.mx-auto.mt-auto
-            img(src="@/assets/curso/temas/tema3/img-8.svg" style="max-width: 310px").mx-auto.mb-4
+          .col-lg-4.mb-4.mb-lg-0.mx-auto
+            img(src="@/assets/curso/temas/tema3/img-8.svg" style="max-width: 310px").mx-auto.mb-5
+            .indicador__container
+              .indicador--click(v-if="mostrarIndicador4")
+              img(src="@/assets/curso/temas/tema3/recordar.svg" style="max-width: 209px; cursor: pointer;" @click="modal4 = true; mostrarIndicador4 = false;").mx-auto
           .col-12.col-lg-8.py-4
             .tarjeta-content-t2
               .container-card
@@ -162,8 +174,11 @@
                   p.mb-0.text-white.py-3.px-4 En inglés, los números de teléfono <b>se dicen dígito por dígito</b>, no el número completo.
 
         .d-flex.flex-wrap.align-items-center
-          .col-lg-4.mb-4.mb-lg-0.mx-auto.mt-auto
-            img(src="@/assets/curso/temas/tema3/img-9.svg" style="max-width: 310px").mx-auto.mb-4
+          .col-lg-4.mb-4.mb-lg-0.mx-auto
+            img(src="@/assets/curso/temas/tema3/img-9.svg" style="max-width: 310px").mx-auto.mb-5
+            .indicador__container
+              .indicador--click(v-if="mostrarIndicador5")
+              img(src="@/assets/curso/temas/tema3/vocabulary.svg" style="max-width: 209px; cursor: pointer;" @click="modal5 = true; mostrarIndicador5 = false;").mx-auto
           .col-12.col-lg-8.py-4
             .tarjeta-content-t2
               .container-card
@@ -451,6 +466,255 @@
                 span.text-white.fw-bold.mx-auto Estructura de la familia
                 .indicador--click(v-if="mostrarIndicador")
 
+    ModalA.modal-vocabulary(:abrir-modal.sync="modal1")
+      .d-flex.flex-wrap
+        .col-lg-6.col-xl-3.mx-auto
+          img(src="@/assets/curso/temas/tema3/img-vocabulary.svg" style="max-width: 126px").mx-auto
+        .col-lg-6.col-xl-3.px-2.mx-auto
+          .audio.mb-2.w-100
+            span Aqui va el audio
+          p.mb-0.ps-4.text-start (estadounidense)
+          .audio.mb-2.w-100
+            span Aqui va el audio
+          p.mb-0.ps-4.text-start (canadiense)
+        .col-lg-6.col-xl-3.px-2.mx-auto
+          .audio.mb-2.w-100
+            span Aqui va el audio
+          p.mb-0.ps-4.text-start (australiano)
+          .audio.mb-2.w-100
+            span Aqui va el audio
+          p.mb-0.ps-4.text-start (japonés)
+        .col-lg-6.col-xl-3.px-2.mx-auto
+          .audio.mb-2.w-100
+            span Aqui va el audio
+          p.mb-0.ps-4.text-start (brasileño)
+          .audio.mb-2.w-100
+            span Aqui va el audio
+          p.mb-0.ps-4.text-start (venezolano)
+        .col-12.col-lg-9.ms-auto.mb-4
+          .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFF7DA")
+            .col-12.col-lg-6.px-2
+              .audio.mb-2.w-100
+                span Aqui va el audio
+              p.mb-0.ps-4.text-start ¿De dónde es usted?
+            .col-12.col-lg-6.px-2
+              .audio-2.mb-2.w-100
+                span Aqui va el audio
+              p.mb-0.ps-4.text-start Yo soy colombiana. Soy de Cúcuta.
+        .tarjeta.color-acento-contenido.p-3.mb-3.w-100(style="border-radius: 0")
+          .row.justify-content-around.align-items-center
+            .col-4.col-lg-1
+              img(src="@/assets/curso/temas/tema3/img-2.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-white Puede consultar más vocabulario a través de Internet. 
+                    | Recomendamos el siguiente enlace: 
+                    | <b>Material UP. (2020, September 07). Países y nacionalidades en inglés.</b>
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span(style="color: black !important") Enlace web
+                    img(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 24px").ms-2
+
+    ModalA.modal-vocabulary(:abrir-modal.sync="modal2")
+      .d-flex.flex-wrap
+        .col-lg-6.col-xl-3.mx-auto
+          img(src="@/assets/curso/temas/tema3/img-vocabulary.svg" style="max-width: 126px").mx-auto
+        .col-lg-6.col-xl-3.px-2.mx-auto
+          img(src="@/assets/curso/temas/tema3/1.svg" style="max-width: 107px").mx-auto.mb-3
+          .audio.w-100
+            span Aqui va el audio
+          p.ps-4.text-start (contador)
+          img(src="@/assets/curso/temas/tema3/4.svg" style="max-width: 107px").mx-auto.mb-3
+          .audio.w-100
+            span Aqui va el audio
+          p.ps-4.text-start (carpintero)
+        .col-lg-6.col-xl-3.px-2.mx-auto
+          img(src="@/assets/curso/temas/tema3/2.svg" style="max-width: 107px").mx-auto.mb-3
+          .audio.w-100
+            span Aqui va el audio
+          p.ps-4.text-start (panadero)
+          img(src="@/assets/curso/temas/tema3/5.svg" style="max-width: 107px").mx-auto.mb-3
+          .audio.w-100
+            span Aqui va el audio
+          p.ps-4.text-start (periodista)
+        .col-lg-6.col-xl-3.px-2.mx-auto
+          img(src="@/assets/curso/temas/tema3/3.svg" style="max-width: 107px").mx-auto.mb-3
+          .audio.w-100
+            span Aqui va el audio
+          p.ps-4.text-start (carnicero)
+          img(src="@/assets/curso/temas/tema3/6.svg" style="max-width: 107px").mx-auto.mb-3
+          .audio.w-100
+            span Aqui va el audio
+          p.ps-4.text-start (secretaria)
+        .col-12.col-lg-9.ms-auto.mb-4
+          .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFF7DA")
+            .col-12.col-lg-6.px-2
+              .audio.mb-2.w-100
+                span Aqui va el audio
+              p.mb-0.ps-4.text-start ¿A qué se dedica?
+            .col-12.col-lg-6.px-2
+              .audio-2.mb-2.w-100
+                span Aqui va el audio
+              p.mb-0.ps-4.text-start Soy cantante.
+        .tarjeta.color-acento-contenido.p-3.mb-3.w-100(style="border-radius: 0")
+          .row.justify-content-around.align-items-center
+            .col-4.col-lg-1
+              img(src="@/assets/curso/temas/tema3/img-2.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-white Puede consultar más vocabulario a través de Internet. 
+                    | Recomendamos el siguiente enlace: <b><em>letsgo!</em> (2016, June 14). Vocabulario inglés-español "PROFESIONES".</b>
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span(style="color: black !important") Enlace web
+                    img(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 24px").ms-2
+
+
+    ModalA.modal-vocabulary(:abrir-modal.sync="modal3")
+      .d-flex.flex-wrap
+        .col-lg-6.col-xl-3.mx-auto
+          img(src="@/assets/curso/temas/tema3/img-vocabulary.svg" style="max-width: 126px").mx-auto
+        .col-lg-6.col-xl-9.d-flex.flex-wrap.mb-4
+          p.w-100.ps-4 Otros términos útiles para dar direcciones:
+          .col-lg-6.col-xl-4.px-2.mx-auto
+            .audio.mb-2.w-100
+              span Aqui va el audio
+            p.mb-0.ps-4.text-start (calle)
+            .audio.mb-2.w-100
+              span Aqui va el audio
+            p.mb-0.ps-4.text-start (barrio / vecindario)
+          .col-lg-6.col-xl-4.px-2.mx-auto
+            .audio.mb-2.w-100
+              span Aqui va el audio
+            p.mb-0.ps-4.text-start (avenida)
+            .audio.mb-2.w-100
+              span Aqui va el audio
+            p.mb-0.ps-4.text-start (esquina)
+          .col-lg-6.col-xl-4.px-2.mx-auto
+            .audio.mb-2.w-100
+              span Aqui va el audio
+            p.mb-0.ps-4.text-start (camino / vía)
+            .audio.mb-2.w-100
+              span Aqui va el audio
+            p.mb-0.ps-4.text-start (ciudad)
+        .col-12.col-lg-9.ms-auto.mb-4
+          .tarjeta.d-flex.flex-wrap.p-4(style="background-color: #FFF7DA")
+            .col-12.col-lg-5.px-2
+              .audio.mb-2.w-100
+                span Aqui va el audio
+              p.mb-0.ps-4.text-start ¿Cuál es su dirección?
+            .col-12.col-lg-7.px-2
+              .audio-2.mb-2.w-100
+                span Aqui va el audio
+              p.mb-0.ps-4.text-start Mi dirección es la calle 15 #4-23. Centro.
+        .tarjeta.color-acento-contenido.p-3.mb-3.w-100(style="border-radius: 0")
+          .row.justify-content-around.align-items-center
+            .col-4.col-lg-1
+              img(src="@/assets/curso/temas/tema3/img-2.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-white Puede consultar más vocabulario a través de Internet. 
+                    | Recomendamos el siguiente enlace: 
+                    | <b>Material UP. (2020, September 07). Países y nacionalidades en inglés.</b>
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span(style="color: black !important") Enlace web
+                    img(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 24px").ms-2
+
+
+    ModalA.modal-recordar(:abrir-modal.sync="modal4")
+      .d-flex.flex-wrap
+        .col-12.col-lg-3.mx-auto
+          img(src="@/assets/curso/temas/tema3/img-recordar.svg" style="max-width: 126px")
+        .col-12.col-lg-9
+          .tarjeta.p-3.py-4.d-flex.align-items-start.mb-4(style="background-color: white")
+            img(src="@/assets/curso/temas/tema3/num-1.svg" style="max-width: 59px; margin-left: -40px")
+            .d-flex.flex-wrap.px-4
+              p.ps-0.ps-md-4 Usualmente, cuando hay un número <b>cero (0)</b> en el número telefónico, no se pronuncia <em style="color: #FF5F65 !important; font-weight: bold">zero</em> (el nombre del número), sino que se dice <em style="color: #FF5F65 !important; font-weight: bold">“oh”</em>, como el nombre de la letra <b>O:</b>
+              p.ps-0.ps-md-4.mb-0.fw-bold(style="color: #3C3FA7") My phone number is 573-806.
+              .audio.mb-2.w-100
+                span Aqui va el audio
+              p.mb-0.ps-0.ps-md-4.text-start Mi número telefónico es cinco, siete, tres, ocho, cero, seis.
+          
+          .tarjeta.p-3.py-4.d-flex.align-items-start(style="background-color: white")
+            img(src="@/assets/curso/temas/tema3/num-2.svg" style="max-width: 59px; margin-left: -40px")
+            .d-flex.flex-wrap.px-4
+              p.ps-0.ps-md-4 Usualmente, cuando hay un número <b>cero (0)</b> en el número telefónico, no se pronuncia <em style="color: #FF5F65 !important; font-weight: bold">zero</em> (el nombre del número), sino que se dice <em style="color: #FF5F65 !important; font-weight: bold">“oh”</em>, como el nombre de la letra <b>O:</b>
+              p.ps-0.ps-md-4.mb-0.fw-bold(style="color: #3C3FA7") My phone number is 573-806.
+              .audio.mb-2.w-100
+                span Aqui va el audio
+              p.mb-0.ps-0.ps-md-4.text-start Mi número telefónico es cinco, siete, tres, ocho, cero, seis.
+
+
+    ModalA.modal-recordar(:abrir-modal.sync="modal5")
+      .d-flex.flex-wrap
+        .col-12.col-lg-3.mx-auto
+          img(src="@/assets/curso/temas/tema3/img-recordar.svg" style="max-width: 126px")
+        .col-12.col-lg-9
+          .tarjeta.p-3.py-4.d-flex.align-items-start.mb-4(style="background-color: white")
+            img(src="@/assets/curso/temas/tema3/num-1.svg" style="max-width: 59px; margin-left: -40px")
+            .d-flex.flex-wrap.w-100.px-4
+              p.w-100 Es posible omitir <em style="color: #FF5F65 !important; font-weight: bold">“years old”.</em>
+              .col-12.col-xl-6.px-2
+                p.mb-0.w-100.ps-4 Sandra tiene 24 años.
+                .audio.mb-2.w-100
+                  span Aqui va el audio
+                p.mb-0.ps-0.ps-md-4.text-start.fw-bold(style="color: #3C3FA7") Sandra is 24 years. ( Incorrecto )
+              .col-12.col-xl-6.px-2
+                .audio.mb-2.w-100.mt-4
+                  span Aqui va el audio
+              .col-12.col-xl-6.px-2.mt-4
+                p.mb-0.w-100.ps-4 Él tiene 55 años.
+                .audio.mb-2.w-100
+                  span Aqui va el audio
+                p.mb-0.ps-0.ps-md-4.text-start.fw-bold(style="color: #3C3FA7") Sandra is 24 years. ( Incorrecto )
+              .col-12.col-xl-6.px-2.mt-4
+                .audio.mb-2.w-100.mt-4
+                  span He is 55 years. ( Incorrecto )
+
+          .tarjeta.p-3.py-4.d-flex.align-items-start.mb-4(style="background-color: white")
+            img(src="@/assets/curso/temas/tema3/num-2.svg" style="max-width: 59px; margin-left: -40px")
+            .d-flex.flex-wrap.w-100.px-4
+              p.w-100 Para hablar de la edad de los bebés, se puede usar <em style="color: #FF5F65 !important; font-weight: bold">months</em> (meses) en vez de <em style="color: #FF5F65 !important; font-weight: bold">years</em> (años):
+              .col-12.col-xl-6.px-2
+                p.mb-0.w-100.ps-4 Sandra tiene 24 años.
+                .audio.mb-2.w-100
+                  span Aqui va el audio
+                p.mb-0.ps-0.ps-md-4.text-start.fw-bold(style="color: #3C3FA7") Sandra is 24 years. ( Incorrecto )
+              .col-12.col-xl-6.px-2
+                .audio.mb-2.w-100.mt-4
+                  span Aqui va el audio
+
+          .tarjeta.p-3.py-4.d-flex.align-items-start.mb-4(style="background-color: white")
+            img(src="@/assets/curso/temas/tema3/num-2.svg" style="max-width: 59px; margin-left: -40px")
+            .d-flex.flex-wrap.w-100.px-4
+              .col-12.col-xl-6.px-2
+                .audio.mb-2.w-100
+                  span Aqui va el audio
+                p.mb-0.ps-0.ps-md-4.text-start ¿Cuántos años tienes?
+              .col-12.col-xl-6.px-2
+                .audio-2.mb-2.w-100
+                  span Aqui va el audio
+                p.mb-0.ps-0.ps-md-4.text-start Tengo veintiocho años.
+              .col-12.col-xl-6.px-2.mt-4
+                .audio.mb-2.w-100
+                  span Aqui va el audio
+                p.mb-0.ps-0.ps-md-4.text-start ¿Cuántos años tiene Claudia?
+              .col-12.col-xl-6.px-2.mt-4
+                .audio-2.mb-2.w-100
+                  span Aqui va el audio
+                p.mb-0.ps-0.ps-md-4.text-start Ella tiene 40.
+              .col-12.col-xl-6.px-2.mt-4
+                .audio.mb-2.w-100
+                  span Aqui va el audio
+                p.mb-0.ps-0.ps-md-4.text-start ¿Cuántos años tiene tu bebé?
+              .col-12.col-xl-6.px-2.mt-4
+                .audio-2.mb-2.w-100
+                  span Aqui va el audio
+                p.mb-0.ps-0.ps-md-4.text-start Él tiene tres meses.
 </template>
 
 <script>
@@ -458,7 +722,15 @@ export default {
   name: 'Tema3',
   data: () => ({
     modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
+    modal5: false,
     mostrarIndicador: true,
+    mostrarIndicador2: true,
+    mostrarIndicador3: true,
+    mostrarIndicador4: true,
+    mostrarIndicador5: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -501,9 +773,16 @@ export default {
     margin-bottom: 0
   .tabs-c__content-item
     padding: .5rem
-    border: 1px solid #AFAFAF
+    border-right: 1px solid #afafaf
+    border-left: 1px solid #afafaf
 .btn-openmodal
   border-radius: 50px
   min-height: 50px
   box-shadow: 0 3px 3px 5px #0000000F
+.modal-vocabulary
+  .modal-a__content
+    background-color: #C4D1FF !important
+.modal-recordar
+  .modal-a__content
+    background-color: #FFF0B5 !important
 </style>
