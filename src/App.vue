@@ -31,20 +31,6 @@ export default {
 <style lang="sass">
 .banner-interno__fondo
   background-image: url(assets/curso/portada/img-fontdo-tema.svg) !important
-.audio
-  min-height: 54px
-  border-radius: 54px
-  border: 2px solid #FFBFC1
-  background-color: white
-  padding: .8rem
-  margin-bottom: 1rem
-.audio-2
-  min-height: 54px
-  border-radius: 54px
-  border: 2px solid #01AC57
-  background-color: white
-  padding: .8rem
-  margin-bottom: 1rem
 .slider-content-cf
   .slyder-f__main
     width: calc(100% - 90px) !important
@@ -141,8 +127,10 @@ export default {
   padding-left: 1rem
   @media (max-width: 991px)
     width: 33%
-  @media (max-width: 991px)
+  @media (max-width: 768px)
     width: 50%
+  @media (max-width: 450px)
+    width: 100%
 .header-table-custom
   border-top: 2px solid #3C3FA7
   border-left: 2px solid #3C3FA7
@@ -165,6 +153,8 @@ export default {
   border-radius: 20px
   min-width: 1200px
   table
-    border: none
+    border: none !important
     border-spacing: 0
+    td
+      border: none
 </style>

@@ -4,6 +4,7 @@ import router from './router'
 import store from 'ecored-base-pkg/src/store/index.js'
 
 import './styles/_styles.sass'
+import './styles/_audio.sass'
 
 import config from './config/global'
 Vue.prototype.$config = config
