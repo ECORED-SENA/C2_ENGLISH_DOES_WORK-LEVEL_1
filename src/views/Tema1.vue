@@ -248,7 +248,7 @@
           )
           p.w-100.mb-0.text-center <em style="color: #FF5F65 !important; font-weight: bold;">to sleep</em>
             br
-            | dormir
+            | dormir <b>!FALTA</b>
       .position-relative
         img(src="@/assets/curso/temas/tema1/17.jpg")
         .content-audio-carousel
@@ -541,11 +541,11 @@
           td
           td
           td.color-blue-td
-            p.fw-bold.mb-0 to work
+            p.fw-bold.mb-0 to be
           td
-            p.fw-bold.mb-0 to go
+            p.fw-bold.mb-0 to have
           td
-            p.fw-bold.mb-0 to study
+            p.fw-bold.mb-0 to do
         tr
           td(rowspan="5")
             p.fw-bold.mb-0 Singular
@@ -555,14 +555,14 @@
             p.fw-bold.mb-0 I am
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>I have"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="I have"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>I do"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="I do"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-2.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
         tr
@@ -572,14 +572,14 @@
             p.fw-bold.mb-0 You are
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>you have"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="you have"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-3.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>you do"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="you do"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-4.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
         tr
@@ -589,14 +589,14 @@
             p.fw-bold.mb-0 He is
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>he has"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="he has"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-5.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>he does"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="he does"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-6.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
         tr
@@ -604,14 +604,14 @@
             p.fw-bold.mb-0 She is
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>she has"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="she has"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-7.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>she does"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="she does"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-8.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
         tr
@@ -619,14 +619,14 @@
             p.fw-bold.mb-0 It is
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>it has"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="it has"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-9.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>it does"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="it does"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-10.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
         tr
@@ -638,14 +638,14 @@
             p.fw-bold.mb-0 We are
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>we do"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="we have"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-11.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>we do"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="we do"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-12.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
         tr
@@ -655,14 +655,14 @@
             p.fw-bold.mb-0 You are
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>you do"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="you have"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-13.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>you do"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="you do"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-14.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
         tr
@@ -672,14 +672,14 @@
             p.fw-bold.mb-0 They are
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>they do"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="they have"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-15.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br>they do"
-              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/buys.mp3')"
+              texto="they do"
+              :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-16.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
 
