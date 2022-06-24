@@ -229,16 +229,16 @@
           p.w-100.mb-0.text-center <em style="color: #FF5F65 !important; font-weight: bold;">to write</em>
             br
             | escribir
-      //- .position-relative
-      //-   img(src="@/assets/curso/temas/tema1/15.jpg")
-      //-   .content-audio-carousel
-      //-     Audio.color-acento-contenido.mx-3(
-      //-       :audio="require('@/assets/curso/temas/audios/1_1_conceptos_gramaticales/1_1-15.mp3')"
-      //-       @audio-hover="mostrarIndicadorAudio = false"
-      //-     )
-      //-     p.w-100.mb-0.text-center <em style="color: #FF5F65 !important; font-weight: bold;">to sing</em>
-      //-       br
-      //-       | cantar
+      .position-relative
+        img(src="@/assets/curso/temas/tema1/15.jpg")
+        .content-audio-carousel
+          Audio.color-acento-contenido.mx-3(
+            :audio="require('@/assets/curso/temas/audios/1_1_conceptos_gramaticales/1_1-15.mp3')"
+            @audio-hover="mostrarIndicadorAudio = false"
+          )
+          p.w-100.mb-0.text-center <em style="color: #FF5F65 !important; font-weight: bold;">to sing</em>
+            br
+            | cantar
       .position-relative
         img(src="@/assets/curso/temas/tema1/16.jpg")
         .content-audio-carousel
@@ -248,7 +248,7 @@
           )
           p.w-100.mb-0.text-center <em style="color: #FF5F65 !important; font-weight: bold;">to sleep</em>
             br
-            | dormir <b>!FALTA</b>
+            | dormir
       .position-relative
         img(src="@/assets/curso/temas/tema1/17.jpg")
         .content-audio-carousel
@@ -502,20 +502,20 @@
             p.fw-bold.mb-0 3.ª persona
           td.color-blue-td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br> They work"
-              :audio="require('@/assets/curso/temas/audios/1_1_conceptos_gramaticales/1_1-30.mp3')"
+              texto="They work"
+              :audio="require('@/assets/curso/temas/audios/1_1_conceptos_gramaticales/1_1-43.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br> They go"
-              :audio="require('@/assets/curso/temas/audios/1_1_conceptos_gramaticales/1_1-30.mp3')"
+              texto="They go"
+              :audio="require('@/assets/curso/temas/audios/1_1_conceptos_gramaticales/1_1-44.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="FALTA! <br> They study"
-              :audio="require('@/assets/curso/temas/audios/1_1_conceptos_gramaticales/1_1-30.mp3')"
+              texto="They study"
+              :audio="require('@/assets/curso/temas/audios/1_1_conceptos_gramaticales/1_1-45.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
 
@@ -905,8 +905,8 @@
                 )
                 p.ms-0.ms-md-4.ps-3 ¿Yo leo muy lento?
                 TarjetaAudio.audio-green.color-acento-contenido.mb-1(
-                  texto="FALTA! <br>No, you don’t."
-                  :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-9.mp3')"
+                  texto="No, you don’t."
+                  :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-10.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.ms-0.ms-md-4.ps-3 No.
@@ -919,8 +919,8 @@
                 )
                 p.ms-0.ms-md-4.ps-3 ¿Ella tiene una guitarra?
                 TarjetaAudio.audio-green.color-acento-contenido.mb-1(
-                  texto="FALTA! <br>Yes, she does. "
-                  :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-9.mp3')"
+                  texto="Yes, she does. "
+                  :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-12.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.ms-0.ms-md-4.ps-3 Sí.
@@ -933,8 +933,8 @@
                 )
                 p.ms-0.ms-md-4.ps-3 ¿Tú y Diana lavan los platos?
                 TarjetaAudio.audio-green.color-acento-contenido.mb-1(
-                  texto="FALTA! <br>Yes, we do."
-                  :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-9.mp3')"
+                  texto="Yes, we do."
+                  :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-14.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.ms-0.ms-md-4.ps-3 Sí.
@@ -1078,8 +1078,8 @@
               )
               p.ps-3 ¿Por qué el cielo está tan gris?
               TarjetaAudio.color-acento-contenido.mb-1(
-                texto="FALTA! <br>Why not?"
-                :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-29.mp3')"
+                texto="Why not?"
+                :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-30.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.ps-3 ¿Por qué no?
@@ -1286,8 +1286,8 @@
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           TarjetaAudio.color-acento-contenido.mb-3(
-            texto="FALTA! <br>They do not eat rice every day."
-            :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-53.mp3')"
+            texto="They do not eat rice every day."
+            :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-54.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
       .col-12.col-md-7.col-xl-4.p-3.mx-auto.mb-5
@@ -1295,8 +1295,8 @@
           img.mx-auto.mb-3(src="@/assets/curso/temas/tema1/img-6.svg" style="max-width: 117px; margin-top: -81px;")
           p.fw-bold.text-center.mb-4 Interrogativa
           TarjetaAudio.color-acento-contenido.mb-3(
-            texto="FALTA! <br>Do I eat rice every day?"
-            :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-53.mp3')"
+            texto="Do I eat rice every day?"
+            :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-55.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           TarjetaAudio.color-acento-contenido.mb-3(
@@ -1305,8 +1305,8 @@
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           TarjetaAudio.color-acento-contenido.mb-3(
-            texto="FALTA! <br>Does he eat rice every day?"
-            :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-53.mp3')"
+            texto="Does he eat rice every day?"
+            :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-57.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           TarjetaAudio.color-acento-contenido.mb-3(
@@ -1315,8 +1315,8 @@
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           TarjetaAudio.color-acento-contenido.mb-3(
-            texto="FALTA! <br>Does it eat rice every day?"
-            :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-58.mp3')"
+            texto="Does it eat rice every day?"
+            :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-59.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           TarjetaAudio.color-acento-contenido.mb-3(

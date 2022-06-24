@@ -193,8 +193,8 @@
                 .d-flex.flex-wrap
                   .col-lg-10.col-xl-6.pe-xl-3
                     TarjetaAudio.color-acento-contenido.mb-1(
-                      texto="FALTA! <br>One two six Main Avenue."
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_5 Phone number  Número telefónico/3_5-2.mp3')"
+                      texto="One two six Main Avenue."
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_5 Phone number  Número telefónico/3_5-1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 ¿Cuál es su número de teléfono?
@@ -390,8 +390,8 @@
                 )
                 p.w-100.ps-4.text-start Bisnieta
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
-                  texto="FALTA! <br>Great-great granddaughter"
-                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great granddaughter.mp3')"
+                  texto="Great-great granddaughter"
+                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Greatgreat granddaughter.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.w-100.ps-4.text-start Tataranieta
@@ -444,8 +444,8 @@
                 )
                 p.w-100.ps-4.text-start Bisnieto
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
-                  texto="FALTA! <br>Great-great grandson"
-                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great grandson.mp3')"
+                  texto="Great-great grandson"
+                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Greatgreat grandson.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.w-100.ps-4.text-start Tataranieto 
@@ -635,15 +635,15 @@
               img(src="@/assets/curso/temas/tema3/img-10.svg" style="max-width: 104px").mx-auto
             .col-12.col-md-6.col-xl-4.px-2.mb-4.mb-xl-0
               TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
-                texto="FALTA! <br>Who is that person?"
-                :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Half-brother.mp3')"
+                texto="Who is that person?"
+                :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Who is that person.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-4.text-start Hermanastro
             .col-12.col-md-6.col-xl-4.px-2.mb-4.mb-xl-0
               TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
-                texto="FALTA! <br>She's my mother."
-                :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Half-brother.mp3')"
+                texto="She's my mother."
+                :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Shes my mother.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-4.text-start Hermanastro
