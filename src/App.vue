@@ -157,4 +157,5 @@ export default {
     border-spacing: 0
     td
       border: none
+      text-align: center
 </style>

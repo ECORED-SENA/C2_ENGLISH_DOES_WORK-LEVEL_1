@@ -362,7 +362,7 @@
           td(rowspan="3")
             p.fw-bold.mb-0 Singular
           td
-            p.fw-bold.mb-0 1era persona
+            p.fw-bold.mb-0 1.ª persona
           td.color-blue-td
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="I work"
@@ -383,7 +383,7 @@
             )
         tr
           td
-            p.fw-bold.mb-0 2nda persona
+            p.fw-bold.mb-0 2.ª persona
           td.color-blue-td
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="you work"
@@ -404,7 +404,7 @@
             )
         tr
           td
-            p.fw-bold.mb-0 3era persona
+            p.fw-bold.mb-0 3.ª persona
           td.color-blue-td
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="He works"
@@ -457,7 +457,7 @@
           td(rowspan="3")
             p.fw-bold.mb-0 Plural
           td
-            p.fw-bold.mb-0 1era persona
+            p.fw-bold.mb-0 1.ª persona
           td.color-blue-td
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="We work"
@@ -478,7 +478,7 @@
             )
         tr
           td
-            p.fw-bold.mb-0 2nda persona
+            p.fw-bold.mb-0 2.ª persona
           td.color-blue-td
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="you work"
@@ -499,7 +499,7 @@
             )
         tr
           td
-            p.fw-bold.mb-0 3era persona
+            p.fw-bold.mb-0 3.ª persona
           td.color-blue-td
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="FALTA! <br> They work"
@@ -526,7 +526,7 @@
 
     figure.mb-5.video1(data-aos="fade-right")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/9cutsaAh6So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p.mb-5(data-aos="fade-right") Los verbos irregulares <em style="color: #FF5F65 !important; font-weight: bold;">to be</em> y <em style="color: #FF5F65 !important; font-weight: bold">to have</em>, junto con el verbo <em style="color: #FF5F65 !important; font-weight: bold">to do</em>, son especiales, porque no solo funcionan como verbos, sino que, en algunos casos y en distintos tiempos verbales, también hacen la función de auxiliar:
     
@@ -550,7 +550,7 @@
           td(rowspan="5")
             p.fw-bold.mb-0 Singular
           td
-            p.fw-bold.mb-0 1era persona
+            p.fw-bold.mb-0 1.ª persona
           td.color-blue-td
             p.fw-bold.mb-0 I am
           td
@@ -567,7 +567,7 @@
             )
         tr
           td
-            p.fw-bold.mb-0 2nda persona
+            p.fw-bold.mb-0 2.ª persona
           td.color-blue-td
             p.fw-bold.mb-0 You are
           td
@@ -584,7 +584,7 @@
             )
         tr
           td(rowspan="3")
-            p.fw-bold.mb-0 3era persona
+            p.fw-bold.mb-0 3.ª persona
           td.color-blue-td
             p.fw-bold.mb-0 He is
           td
@@ -633,7 +633,7 @@
           td(rowspan="3")
             p.fw-bold.mb-0 Plural
           td
-            p.fw-bold.mb-0 1era persona
+            p.fw-bold.mb-0 1.ª persona
           td.color-blue-td
             p.fw-bold.mb-0 We are
           td
@@ -650,7 +650,7 @@
             )
         tr
           td
-            p.fw-bold.mb-0 2nda persona
+            p.text-center.fw-bold.mb-0 2.ª persona
           td.color-blue-td
             p.fw-bold.mb-0 You are
           td
@@ -667,7 +667,7 @@
             )
         tr
           td
-            p.fw-bold.mb-0 3era persona
+            p.fw-bold.mb-0 3.ª persona
           td.color-blue-td
             p.fw-bold.mb-0 They are
           td
