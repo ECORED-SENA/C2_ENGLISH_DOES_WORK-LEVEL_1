@@ -252,7 +252,7 @@
     h4.mb-5(data-aos="fade-right") Family / Familia
     p.mb-5(data-aos="fade-right") Para cerrar el componente y la información personal, es necesario apropiar el vocabulario de términos familiares:
 
-    TabsC.color-acento-botones.tabs-c-t3(data-aos="fade-left")
+    TabsC.color-acento-botones.tabs-c-t3.mb-5(data-aos="fade-left")
       .py-3.py-md-4(titulo='<b><em style="color: #FF5F65 !important;">Immediate Family</em> <br> Familia inmediata</b>')
         .d-flex.flex-wrap.col-lg-10.mx-auto
           p.w-100 <b><em style="color: #FF5F65 !important;">Immediate Family</em> / Familia inmediata</b>
@@ -1014,6 +1014,14 @@
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ps-0.ps-md-4.text-start Él tiene tres meses.
+    
+    .titulo-segundo.color-acento-contenido.mb-5(data-aos="fade-right")
+      h2 Actividad didáctica
+
+    Dialogo.color-primario(:dialogo="dialogo")
+      template(#nombre-actividad) Arrastrar y Soltar
+      template(#titulo-actividad) Titulo de actividad - Completa la conversación.
+      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
 </template>
 
 <script>
@@ -1033,6 +1041,135 @@ export default {
     mostrarIndicador3: true,
     mostrarIndicador4: true,
     mostrarIndicador5: true,
+    dialogo: {
+      personajes: [
+        {
+          nombre: 'Immigration officer',
+          img: require('@/assets/componentes/ej-05.svg'),
+        },
+        {
+          nombre: 'Sandra',
+          img: require('@/assets/componentes/ej-05.svg'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: 'Immigration officer',
+          textoIng: 'Hello. What’s your first name?',
+          textoEsp: '¿Cuál es tu primer nombre?',
+          audio: require('@/assets/curso/temas/audios/actividad/Immigration_officer/1.mp3'),
+        },
+        {
+          personaje: 'Sandra',
+          textoIng: 'My first name *** Sandra. ',
+          textoEsp: 'Mi primer nombre es Sandra.',
+          audio: require('@/assets/curso/temas/audios/actividad/Sandra/1.wav'),
+          palabra: 'Is',
+        },
+        {
+          personaje: 'Immigration officer',
+          textoIng: 'What’s your last name?',
+          textoEsp: '¿Cual es tu apellido?',
+          audio: require('@/assets/curso/temas/audios/actividad/Immigration_officer/2.mp3'),
+        },
+        {
+          personaje: 'Sandra',
+          textoIng: '*** last name is Lopez.',
+          textoEsp: 'Mi apellido es López.',
+          audio: require('@/assets/curso/temas/audios/actividad/Sandra/2.wav'),
+          palabra: 'My',
+        },
+        {
+          personaje: 'Immigration officer',
+          textoIng: '***  your phone number?',
+          textoEsp: '¿Cuál es tu número de teléfono?',
+          audio: require('@/assets/curso/temas/audios/actividad/Immigration_officer/3.mp3'),
+          palabra: 'What’s',
+        },
+        {
+          personaje: 'Sandra',
+          textoIng: 'My phone number is 302-6789.',
+          textoEsp: 'Mi número de teléfono es 302-6789.',
+          audio: require('@/assets/curso/temas/audios/actividad/Sandra/3.wav'),
+        },
+        {
+          personaje: 'Immigration officer',
+          textoIng: 'How old are you?',
+          textoEsp: '¿Cuantos años tienes?',
+          audio: require('@/assets/curso/temas/audios/actividad/Immigration_officer/4.mp3'),
+        },
+        {
+          personaje: 'Sandra',
+          textoIng: 'I ***  32 years old.',
+          textoEsp: 'Tengo 32 años.',
+          audio: require('@/assets/curso/temas/audios/actividad/Sandra/4.mp3'),
+          palabra: 'Am',
+        },
+        {
+          personaje: 'Immigration officer',
+          textoIng: 'What’s. *** address?',
+          textoEsp: '¿Cual es tu direccion?',
+          audio: require('@/assets/curso/temas/audios/actividad/Immigration_officer/5.mp3'),
+          palabra: 'Your',
+        },
+        {
+          personaje: 'Sandra',
+          textoIng: 'My address is 20th Avenue #11-45.',
+          textoEsp: 'Mi dirección es 20th Avenue #11-45.',
+          audio: require('@/assets/curso/temas/audios/actividad/Sandra/5.wav'),
+        },
+        {
+          personaje: 'Immigration officer',
+          textoIng: 'Where *** you from?',
+          textoEsp: '¿De dónde eres?',
+          audio: require('@/assets/curso/temas/audios/actividad/Immigration_officer/6.mp3'),
+          palabra: 'Are',
+        },
+        {
+          personaje: 'Sandra',
+          textoIng: 'I’m Ecuadorian. I’m *** Quito.',
+          textoEsp: 'soy ecuatoriana soy de quito',
+          audio: require('@/assets/curso/temas/audios/actividad/Sandra/6.wav'),
+          palabra: 'From',
+        },
+        {
+          personaje: 'Immigration officer',
+          textoIng: 'What do you do for a *** ?',
+          textoEsp: '¿A qué te dedicas?',
+          audio: require('@/assets/curso/temas/audios/actividad/Immigration_officer/7.mp3'),
+          palabra: 'Living',
+        },
+        {
+          personaje: 'Sandra',
+          textoIng: 'I’m *** nurse.',
+          textoEsp: 'Soy enfermera',
+          audio: require('@/assets/curso/temas/audios/actividad/Sandra/7.wav'),
+          palabra: 'A',
+        },
+        {
+          personaje: 'Immigration officer',
+          textoIng: 'FALTA! <br>Who did you move to the *** with?',
+          textoEsp: '¿Con quién te mudaste al país?',
+          audio: require('@/assets/curso/temas/audios/actividad/Immigration_officer/8.mp3'),
+          palabra: 'Country',
+        },
+        {
+          personaje: 'Sandra',
+          textoIng: 'I moved here *** my daughter.',
+          textoEsp: 'Me mudé aquí con mi hija.',
+          audio: require('@/assets/curso/temas/audios/actividad/Sandra/8.wav'),
+          palabra: 'With',
+        },
+        {
+          personaje: 'Immigration officer',
+          textoIng:
+            'Thank you very much for the information.You can now claim your documents.',
+          textoEsp:
+            'Muchas gracias por la información. Ya puedes reclamar tus documentos.',
+          audio: require('@/assets/curso/temas/audios/actividad/Immigration_officer/8.mp3'),
+        },
+      ],
+    },
   }),
   mounted() {
     this.$nextTick(() => {

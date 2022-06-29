@@ -526,7 +526,7 @@
 
     figure.mb-5.video1(data-aos="fade-right")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/9cutsaAh6So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/uUlq-MW18f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p.mb-5(data-aos="fade-right") Los verbos irregulares <em style="color: #FF5F65 !important; font-weight: bold;">to be</em> y <em style="color: #FF5F65 !important; font-weight: bold">to have</em>, junto con el verbo <em style="color: #FF5F65 !important; font-weight: bold">to do</em>, son especiales, porque no solo funcionan como verbos, sino que, en algunos casos y en distintos tiempos verbales, también hacen la función de auxiliar:
     
@@ -1201,7 +1201,7 @@
     
     h3(data-aos="fade-left") <em>Present Simple: to eat</em> (comer)
 
-    .d-flex.flex-wrap(style="margin-top: 90px" data-aos="fade-right")
+    .d-flex.flex-wrap.mb-5(style="margin-top: 90px" data-aos="fade-right")
       .col-12.col-md-7.col-xl-4.p-3.mx-auto.mb-5
         .tarjeta.p-4(style="background-color: #C4D1FF;")
           img.mx-auto.mb-3(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 117px; margin-top: -81px;")
@@ -1334,6 +1334,26 @@
             :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-62.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
+    .titulo-segundo.color-acento-contenido.mb-5(data-aos="fade-right")
+      h2 Actividad didáctica
+
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 <em>This is what we do.</em> / Esto es lo que hacemos.
+        p.mb-4 En las siguientes oraciones del tiempo presente simple (<em>Simple Present Tense</em>), escribir la forma correcta en la que va conjugado el verbo que se encuentra entre los paréntesis.
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Completar los espacios.
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/01/index.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
 </template>
 
 <script>

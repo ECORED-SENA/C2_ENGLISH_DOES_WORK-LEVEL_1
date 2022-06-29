@@ -3,59 +3,10 @@
   BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.h-100.d-flex.align-items-center.p-4
-          figure
-            img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
-      .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 <em>This is what we do.</em> / Esto es lo que hacemos.
-        p.mb-4 En las siguientes oraciones del tiempo presente simple (<em>Simple Present Tense</em>), escribir la forma correcta en la que va conjugado el verbo que se encuentra entre los paréntesis.
-        .tarjeta.actividad.p-3
-          .row.justify-content-around.align-items-center            
-            .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Completar los espacios.
-            .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                span Realizar
-                i.fas.fa-puzzle-piece
     
-    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.h-100.d-flex.align-items-center.p-4
-          figure
-            img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
-      .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 <em>Who did what?</em> / ¿Quién hizo qué?
-        p.mb-4 En las siguientes oraciones del tiempo presente simple, escoja la forma correcta del pronombre de sujeto y objeto correspondiente.
-        .tarjeta.actividad.p-3
-          .row.justify-content-around.align-items-center            
-            .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Opción múltiple única respuesta.
-            .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                span Realizar
-                i.fas.fa-puzzle-piece
+  
     
-    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.h-100.d-flex.align-items-center.p-4
-          figure
-            img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
-      .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 <em>At the immigration and citizenship office</em> / En la oficina de inmigración y ciudadanía.
-        p.mb-4 En las siguientes oraciones del tiempo presente simple, escoja la forma correcta del pronombre de sujeto y objeto correspondiente.
-        .tarjeta.actividad.p-3
-          .row.justify-content-around.align-items-center            
-            .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Arrastrar y soltar.
-            .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                span Realizar
-                i.fas.fa-puzzle-piece
+    
                 
 </template>
 
