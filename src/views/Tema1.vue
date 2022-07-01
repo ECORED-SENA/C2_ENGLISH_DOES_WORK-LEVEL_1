@@ -62,7 +62,7 @@
               :audio="require('@/assets/curso/temas/audios/1_introducción_PS/1-4.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
-            p.ps-3 Gire a la izquierda y luego baje por Oak Street.
+            p.ps-3 Gire a la izquierda y luego baje por la calle Oak.
         
         .tarjeta-content-t1
           .container-card
@@ -689,10 +689,10 @@
     p.mb-5(data-aos="fade-right") Las siguientes son las formas para estructurar oraciones que afirmen, nieguen o hagan preguntas sobre diferentes enunciados. La configuración de estas oraciones es un poco diferente a la del idioma español, razón por la cual se debe estar atento al orden y uso de las palabras, como se describe a continuación:
 
     TabsB.color-primario.mb-5.tabs-custom(data-aos="fade-left")
-      .py-4.py-md-5(titulo="Frases afirmativas en presente simple" :icono="require('@/assets/curso/temas/tema1/pestanas-1.svg')")
+      .py-4.py-md-5(titulo="Frases afirmativas en presente simple/<em>Affirmative phrases in the present simple tense</em>" :icono="require('@/assets/curso/temas/tema1/pestanas-1.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
-            h3.text-title-tabs Frases afirmativas en presente simple
+            h3.text-title-tabs Frases afirmativas en presente simple/<em>Affirmative phrases in the present simple tense</em>
             p.w-100 Para las oraciones afirmativas se debe tener en cuenta la concordancia gramatical entre el verbo y el sujeto, sobre todo cuando se habla en tercera persona singular ya que el verbo se modifica. Su estructura es la siguiente:
             .d-flex.flex-wrap.w-100.p-4.mb-5(style="background-color: white")
               img(src="@/assets/curso/temas/tema1/img-tabs-1.svg" style="max-width: 238px").mx-auto.mb-4.mb-lg-0
@@ -732,10 +732,10 @@
                 )
                 p.ms-0.ms-md-4 El perro duerme muy bien.
 
-      .py-4.py-md-5(titulo="Frases negativas en presente simple" :icono="require('@/assets/curso/temas/tema1/pestanas-2.svg')")
+      .py-4.py-md-5(titulo="Frases negativas en presente simple/<em>Negative phrases in the present simple</em>" :icono="require('@/assets/curso/temas/tema1/pestanas-2.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
-            h3.text-title-tabs Frases negativas en presente simple
+            h3.text-title-tabs Frases negativas en presente simple/<em>Negative phrases in the present simple</em>
             p.w-100 Para las oraciones negativas, se debe usar el verbo auxiliar <em style="color: #FF5F65 !important; font-weight: bold;">“does”</em> para la tercera persona singular y <em style="color: #FF5F65 !important; font-weight: bold;">“do”</em> para el resto de las personas gramaticales.
             p.w-100 Un verbo auxiliar es un verbo que ayuda a formar ciertas oraciones y a mostrar que están estructuradas en un tiempo verbal en particular. En este caso, <em style="color: #FF5F65 !important; font-weight: bold;">do</em> y <em style="color: #FF5F65 !important; font-weight: bold;">does</em> no hacen referencia a su traducción textual del verbo “hacer”, sino que son un verbo auxiliar que no tiene una traducción exacta al idioma español.
             .d-flex.flex-wrap.w-100.p-4.mb-5(style="background-color: white")
@@ -766,7 +766,7 @@
       .py-4.py-md-5(titulo="Contracciones/<em>Contractions</em>" :icono="require('@/assets/curso/temas/tema1/pestanas-3.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
-            h3.text-title-tabs Contracciones/Contractions
+            h3.text-title-tabs Contracciones/<em>Contractions</em>
             p.w-100 Una contracción es la forma corta de un grupo de palabras omitiendo ciertas letras y sonidos, generalmente el apóstrofe representa la letra faltante. Una de las formas más comunes de contracciones es la que crean los verbos auxiliares como do o does unidos a la partícula de negación not.
             .d-flex.flex-wrap.w-100.p-4.mb-5(style="background-color: white")
               img(src="@/assets/curso/temas/tema1/img-tabs-1.svg" style="max-width: 238px").col-lg-5.mx-auto.mb-4.mb-lg-0
@@ -800,10 +800,10 @@
                 .col
                   p.mb-0 <b>Warning! / ¡Advertencia! </b> <br>
                     | Una regla general es la de evitar usar contracciones en contextos formales, como conversaciones, documentos y discursos académicos, oficiales o laborales. Las contracciones son más usadas en contextos informales, como conversaciones con amigos o personas de confianza, en la cotidianidad.
-      .py-4.py-md-5(titulo="Frases interrogativas en presente simple" :icono="require('@/assets/curso/temas/tema1/pestanas-4.svg')")
+      .py-4.py-md-5(titulo="Frases interrogativas en presente simple/<em>Interrogative phrases in the present simple tense</em>" :icono="require('@/assets/curso/temas/tema1/pestanas-4.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
-            h3.text-title-tabs Contracciones / Contractions
+            h3.text-title-tabs Frases interrogativas en presente simple/<em>Interrogative phrases in the present simple tense</em>
             p.w-100 Para las oraciones interrogativas en inglés también se debe hacer uso de los verbos auxiliares <em style="color: #FF5F65 !important; font-weight: bold;">do / does</em>, y por ende el verbo principal de la pregunta debe ir siempre en forma base.
             .d-flex.flex-wrap.w-100.p-4.mb-5(style="background-color: white")
               img(src="@/assets/curso/temas/tema1/img-tabs-1.svg" style="max-width: 238px").col-lg-5.mx-auto.mb-4.mb-lg-0
@@ -835,7 +835,7 @@
       .py-4.py-md-5(titulo="Preguntas de sí o no/<em>Yes or No questions</em>" :icono="require('@/assets/curso/temas/tema1/pestanas-5.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
-            h3.text-title-tabs Preguntas de sí o no / Yes or No questions
+            h3.text-title-tabs Preguntas de sí o no/<em>Yes or No questions</em>
             p.w-100 También conocidas como <b>“preguntas cerradas”</b>, estas preguntas plantean un escenario al que se puede responder afirmativa o negativamente. Esto se puede hacer con respuestas completas o respuestas cortas.
             .d-flex.flex-wrap.w-100.my-5
               .d-flex.flex-wrap.col-xl-6.p-2.mb-5
@@ -845,7 +845,7 @@
                   .col-md-7.col-lg-8.mb-4
                     span.ps-3.fw-bold For example / Por ejemplo:
                     TarjetaAudio.color-acento-contenido.mb-1(
-                      texto="Do you buy fast food"
+                      texto="Do you buy fast food?"
                       :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-3.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
@@ -949,7 +949,7 @@
         TabsA.color-acento-contenido
           .tarjeta.color-acento-botones--borde.p-4(titulo="1. What" style="background-color: #FFDFE0; border: none;")
             h4 What
-            p Pide información sobre algo, incluyendo acciones, objetos, características o información en general. Corresponde a la pregunta <b>¿qué?</b>.
+            p Pide información sobre algo, incluyendo acciones, objetos, características o información en general. Corresponde a la pregunta <b>"¿qué?"</b>.
             .col-xl-10
               span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
               TarjetaAudio.color-acento-contenido.mb-1(
@@ -973,7 +973,7 @@
           
           .tarjeta.color-acento-botones--borde.p-4(titulo="2. Where" style="background-color: #FFDFE0; border: none;")
             h4 Where
-            p Pregunta por un <b>lugar</b> o una <b>ubicación</b> según el contexto de la pregunta.  Corresponde a la pregunta <b>¿dónde?</b>.
+            p Pregunta por un <b>lugar</b> o una <b>ubicación</b> según el contexto de la pregunta.  Corresponde a la pregunta <b>"¿dónde?"</b>.
             .col-xl-10
               span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
               TarjetaAudio.color-acento-contenido.mb-1(
@@ -997,7 +997,7 @@
           
           .tarjeta.color-acento-botones--borde.p-4(titulo="3. When" style="background-color: #FFDFE0; border: none;")
             h4 When
-            p Pregunta por el <b>momento</b> en que una acción se realiza o tuvo lugar. Corresponde a la pregunta <b>¿cuándo?</b>.
+            p Pregunta por el <b>momento</b> en que una acción se realiza o tuvo lugar. Corresponde a la pregunta <b>"¿cuándo?"</b>.
             span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
             .d-flex.flex-wrap.w-100
               .col-xl-6.pe-xl-4
@@ -1032,7 +1032,7 @@
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="4. Who" style="background-color: #FFDFE0; border: none;")
             h4 Who
-            p Pregunta por <b>alguien</b>, por una <b>persona</b>. Con la pregunta <em style="color: #FF5F65; font-weight: bold;">WHO</em>, se busca obtener un nombre, ya sea propio o común, que indique al sujeto u objeto. Corresponde a las preguntas <b>¿quién?</b> o <b>¿a quién?</b>.
+            p Pregunta por <b>alguien</b>, por una <b>persona</b>. Con la pregunta <em style="color: #FF5F65; font-weight: bold;">WHO</em>, se busca obtener un nombre, ya sea propio o común, que indique al sujeto u objeto. Corresponde a las preguntas <b>"¿quién?"</b> o <b>"¿a quién?"</b>.
             span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
             .d-flex.flex-wrap.w-100
               .col-xl-6.pe-xl-4
@@ -1062,7 +1062,7 @@
           
           .tarjeta.color-acento-botones--borde.p-4(titulo="5. Why" style="background-color: #FFDFE0; border: none;")
             h4 Why
-            p Pregunta por un <b>motivo</b> o una <b>razón</b>. Corresponde a la pregunta <b>¿por qué?</b>.
+            p Pregunta por un <b>motivo</b> o una <b>razón</b>. Corresponde a la pregunta <b>"¿por qué?"</b>.
             span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
             .col-xl-10
               TarjetaAudio.color-acento-contenido.mb-1(
@@ -1086,7 +1086,7 @@
       
           .tarjeta.color-acento-botones--borde.p-4(titulo="6. How" style="background-color: #FFDFE0; border: none;")
             h4 How
-            p Pregunta por el <b>modo</b> o la <b>forma</b> en que se realiza una acción. Corresponde a la pregunta <b>¿cómo?</b>.
+            p Pregunta por el <b>modo</b> o la <b>forma</b> en que se realiza una acción. Corresponde a la pregunta <b>"¿cómo?"</b>.
             span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
             .d-flex.flex-wrap.w-100
               .col-xl-6.pe-xl-4
@@ -1188,7 +1188,7 @@
               p.fw-bold.mb-0.text-center(style="color: #FF5F65;") <em>on weekends</em>
             td(style="width: 25%")
               TarjetaAudio.color-acento-contenido.mb-1(
-                texto="What do you do on weekends"
+                texto="Where does she go on weekends"
                 :audio="require('@/assets/curso/temas/audios/1_3_3_Frases_interrogativas_en_presente_simple/1_3-15.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )

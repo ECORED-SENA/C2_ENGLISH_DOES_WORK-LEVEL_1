@@ -266,7 +266,7 @@
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> You </em>
             td
               p.fw-bold.mb-0 A ustedes <br>
-                | (-le, -los, -las)
+                | (-les, -los, -las)
           tr
             td
               p.fw-bold.mb-0 3ª persona
@@ -274,7 +274,7 @@
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> They </em>
             td
               p.fw-bold.mb-0 A ellos/A ellas <br>
-                | (-le, -los, -las)
+                | (-les, -los, -las)
       .col-12.col-md-10.col-xl-6.mx-auto.px-xl-4.d-flex
         .p-4.p-xl-5.w-100(style="background-color: #E1E8FF")
           span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo: 
@@ -340,10 +340,10 @@
               td.color-blue-td
                 p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> He </em>
               td(style="background-color: #FFDFE0")
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">You</em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">Him</em>
             tr
               td.color-blue-td
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> Him </em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">She</em>
               td(style="background-color: #FFDFE0")
                 p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">Her</em>
             tr
