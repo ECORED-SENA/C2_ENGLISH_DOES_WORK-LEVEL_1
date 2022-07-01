@@ -25,58 +25,58 @@
             td(rowspan="5")
               p.fw-bold.text-center Singular
             td(style="width: 35%")
-              p.fw-bold.mb-0 1era persona
+              p.fw-bold.mb-0 1ª persona
             td.color-blue-td
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> I </em>
             td
-              p.fw-bold.mb-0 yo
+              p.fw-bold.mb-0 Yo
           tr
             td
-              p.fw-bold.mb-0 2nda persona
+              p.fw-bold.mb-0 2ª persona
             td.color-blue-td
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> you </em>
             td
-              p.fw-bold.mb-0 tú / usted
+              p.fw-bold.mb-0 Tú/usted
           tr
             td(rowspan="3")
-              p.fw-bold.mb-0 3era persona
+              p.fw-bold.mb-0 3ª persona
             td.color-blue-td
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> he </em>
             td
-              p.fw-bold.mb-0 él
+              p.fw-bold.mb-0 Él
           tr
             td.color-blue-td
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> She </em>
             td
-              p.fw-bold.mb-0 ella
+              p.fw-bold.mb-0 Ella
           tr
             td.color-blue-td
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> It </em>
             td
-              p.fw-bold.mb-0 (eso)
+              p.fw-bold.mb-0 (Eso)
           tr
             td(rowspan="3")
               p.fw-bold.text-center Plural
             td
-              p.fw-bold.mb-0 1era persona
+              p.fw-bold.mb-0 1ª persona
             td.color-blue-td
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> we </em>
             td
-              p.fw-bold.mb-0 nosotros
+              p.fw-bold.mb-0 Nosotros
           tr
             td
-              p.fw-bold.mb-0 2nda persona
+              p.fw-bold.mb-0 2ª persona
             td.color-blue-td
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> you </em>
             td
-              p.fw-bold.mb-0 ustedes
+              p.fw-bold.mb-0 Ustedes
           tr
             td
-              p.fw-bold.mb-0 3era persona
+              p.fw-bold.mb-0 3ª persona
             td.color-blue-td
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> they </em>
             td
-              p.fw-bold.mb-0 ellos
+              p.fw-bold.mb-0 Ellos
             
       .col-12.col-lg-6.col-xl-4.ps-xl-4.mb-5.mb-lg-0
         img(src="@/assets/curso/temas/tema2/img-1.png" style="max-width: 420px").mx-auto
@@ -87,13 +87,13 @@
           :audio="require('@/assets/curso/temas/audios/2_1_Pronombres_de_sujeto_Subject_pronouns/2_1-1.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
-        p.ps-3 ¿Por qué te comportas así?
+        p.ps-3 Ella trabaja en un restaurante.
         TarjetaAudio.color-acento-contenido.mb-1(
           texto="They travel every summer."
           :audio="require('@/assets/curso/temas/audios/2_1_Pronombres_de_sujeto_Subject_pronouns/2_1-2.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
-        p.ps-3 ¿Por qué te comportas así?
+        p.ps-3 Ellos viajan todos los veranos.
     p.mb-5(data-aos="fade-right") Para los pronombres de sujeto, se deben tener en cuenta algunas condiciones:
 
     .d-flex.flex-wrap.py-4.px-lg-4.mb-5(style="background-color: #FFE891;" data-aos="fade-left")
@@ -104,7 +104,7 @@
           .col-12.col-lg-8
             .tarjeta-content-t2
               .container-card
-                p.ps-3.mb-4 Siempre el pronombre de sujeto I va en mayúscula, sin importar si va al inicio, en el medio o al final de la oración:
+                p.ps-3.mb-4 Siempre el pronombre de sujeto #[em I] va en mayúscula, sin importar si va al inicio, en el medio o al final de la oración:
                 .col-lg-10.col-xl-6
                   span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo: 
                   TarjetaAudio.color-acento-contenido.mb-1(
@@ -120,7 +120,7 @@
           .col-12.col-lg-8
             .tarjeta-content-t2
               .container-card
-                p.ps-3.mb-4 El pronombre de sujeto <em style="color: #FF5F65 !important; font-weight: bold">you</em> se utiliza para la segunda persona singular <b>“tú / usted”</b> y para la segunda persona plural <b>“ustedes”</b>.
+                p.ps-3.mb-4 El pronombre de sujeto <em style="color: #FF5F65 !important; font-weight: bold">you</em> se utiliza para la segunda persona singular <b>“tú/usted”</b> y para la segunda persona plural <b>“ustedes”</b>.
                 span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo: 
                 TarjetaAudio.color-acento-contenido.mb-1(
                   texto="You and Ana study a lot."
@@ -141,7 +141,7 @@
           .col-12.col-lg-8
             .tarjeta-content-t2
               .container-card
-                p.ps-3.mb-4 El pronombre de sujeto it se utiliza para la tercera persona singular, que hace referencia a un solo animal, un solo objeto o un solo lugar, y no tiene una traducción exacta al español, pero la mejor aproximación para entender el concepto es referirnos a it como “eso”. En español, le otorgamos un género (masculino - femenino) a los animales, objetos, lugares, etc. En inglés, esto no se hace; en vez de hablar de él o ella, hablamos de it.
+                p.ps-3.mb-4 El pronombre de sujeto #[em it] se utiliza para la tercera persona singular, que hace referencia a un solo animal, un solo objeto o un solo lugar, y no tiene una traducción exacta al español, pero la mejor aproximación para entender el concepto es referirnos a #[em it] como “eso”. En español, le otorgamos un género (masculino-femenino) a los animales, objetos, lugares, etc. En inglés, esto no se hace; en vez de hablar de él o ella, hablamos de #[em it].
                 span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo:
                 .d-flex.flex-wrap
                   .col-xl-6.pe-3
@@ -166,7 +166,7 @@
           .col-12.col-lg-8
             .tarjeta-content-t2
               .container-card
-                p.ps-3.mb-4 Cuando en la tercera persona plural nos referimos a más de un animal, más de un objeto o más de un lugar, usamos they, no it:
+                p.ps-3.mb-4 Cuando en la tercera persona plural nos referimos a más de un animal, más de un objeto o más de un lugar, usamos #[em they], no #[em it]:
                 span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo:
                 .col-xl-8
                   TarjetaAudio.color-acento-contenido.mb-1(
@@ -215,66 +215,66 @@
             td(rowspan="5")
               p.fw-bold.text-center Singular
             td(style="width: 30%")
-              p.fw-bold.mb-0 1era persona
+              p.fw-bold.mb-0 1ª persona
             td.color-blue-td
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> I </em>
             td(style="width: 30%")
               p.fw-bold.mb-0 A mi <br>
-                | ( -me )
+                | (-me)
           tr
             td
-              p.fw-bold.mb-0 2nda persona
+              p.fw-bold.mb-0 2ª persona
             td.color-blue-td
-              p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> you </em>
+              p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> You </em>
             td
-              p.fw-bold.mb-0 A ti / usted <br>
-                | ( -te, -le, -lo )
+              p.fw-bold.mb-0 A ti/usted <br>
+                | (-te, -le, -lo)
           tr
             td(rowspan="3")
-              p.fw-bold.mb-0 3era persona
+              p.fw-bold.mb-0 3ª persona
             td.color-blue-td
-              p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> he </em>
+              p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> He </em>
             td
               p.fw-bold.mb-0 A él <br>
-                | ( -le, -lo )
+                | (-le, -lo)
           tr
             td.color-blue-td
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> She </em>
             td
               p.fw-bold.mb-0 A ella <br>
-                | ( -le, -la )
+                | (-le, -la)
           tr
             td.color-blue-td
               p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> It </em>
             td
               p.fw-bold.mb-0 A eso <br>
-                | ( -le, -lo )
+                | (-le, -lo)
           tr
             td(rowspan="3")
               p.fw-bold.text-center Plural
             td
-              p.fw-bold.mb-0 1era persona
+              p.fw-bold.mb-0 1ª persona
             td.color-blue-td
-              p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> we </em>
+              p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> We </em>
             td
               p.fw-bold.mb-0 A nosotros <br>
-                | ( -nos )
+                | (-nos)
           tr
             td
-              p.fw-bold.mb-0 2nda persona
+              p.fw-bold.mb-0 2ª persona
             td.color-blue-td
-              p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> you </em>
+              p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> You </em>
             td
               p.fw-bold.mb-0 A ustedes <br>
-                | ( -le, -los, -las )
+                | (-le, -los, -las)
           tr
             td
-              p.fw-bold.mb-0 3era persona
+              p.fw-bold.mb-0 3ª persona
             td.color-blue-td
-              p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> they </em>
+              p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> They </em>
             td
-              p.fw-bold.mb-0 A ellos / A ellas <br>
-                | ( -le, -los, -las )
+              p.fw-bold.mb-0 A ellos/A ellas <br>
+                | (-le, -los, -las)
       .col-12.col-md-10.col-xl-6.mx-auto.px-xl-4.d-flex
         .p-4.p-xl-5.w-100(style="background-color: #E1E8FF")
           span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo: 
@@ -302,7 +302,7 @@
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.ps-3 El gato está comiendo. <b>Déjalo</b> tranquilo.
-    p.mb-5(data-aos="fade-left") Si bien it y you son los mismos tanto para pronombres de sujeto como de objeto, no se deben confundir los demás pronombres y se deben usar adecuadamente, teniendo en cuenta la persona gramatical a la cual se está haciendo referencia y si esta está realizando la acción o, por el contrario, está recibiendo las consecuencias de dicha acción.
+    p.mb-5(data-aos="fade-left") Si bien #[em it] y #[em you] son los mismos tanto para pronombres de sujeto como de objeto, no se deben confundir los demás pronombres y se deben usar adecuadamente, teniendo en cuenta la persona gramatical a la cual se está haciendo referencia y si esta está realizando la acción o, por el contrario, está recibiendo las consecuencias de dicha acción.
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 8
@@ -322,58 +322,58 @@
               td(rowspan="5")
                 p.fw-bold.text-center Singular
               td
-                p.fw-bold.mb-0 1era persona
+                p.fw-bold.mb-0 1ª persona
               td.color-blue-td
                 p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> I </em>
               td(style="background-color: #FFDFE0")
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">me</em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">Me</em>
             tr
               td
-                p.fw-bold.mb-0 2nda persona
+                p.fw-bold.mb-0 2ª persona
               td.color-blue-td
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> you </em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> You </em>
               td(style="background-color: #FFDFE0")
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">you</em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">You</em>
             tr
               td(rowspan="3")
-                p.fw-bold.mb-0 3era persona
+                p.fw-bold.mb-0 3ª persona
               td.color-blue-td
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> he </em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> He </em>
               td(style="background-color: #FFDFE0")
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">you</em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">You</em>
             tr
               td.color-blue-td
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> him </em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> Him </em>
               td(style="background-color: #FFDFE0")
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">her</em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">Her</em>
             tr
               td.color-blue-td
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> it </em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> It </em>
               td(style="background-color: #FFDFE0")
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">it</em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">It</em>
             tr
               td(rowspan="3")
                 p.fw-bold.text-center Plural
               td
-                p.fw-bold.mb-0 1era persona
+                p.fw-bold.mb-0 1ª persona
               td.color-blue-td
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> we </em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">We</em>
               td(style="background-color: #FFDFE0")
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">us</em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">Us</em>
             tr
               td
-                p.fw-bold.mb-0 2nda persona
+                p.fw-bold.mb-0 2ª persona
               td.color-blue-td
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> you </em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">You</em>
               td(style="background-color: #FFDFE0")
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">you</em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">You</em>
             tr
               td
-                p.fw-bold.mb-0 3era persona
+                p.fw-bold.mb-0 3ª persona
               td.color-blue-td
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold"> they </em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">They</em>
               td(style="background-color: #FFDFE0")
-                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">them</em>
+                p.fw-bold.mb-0 <em style="color: #FF5F65 !important; font-weight: bold">Them</em>
       .col-xl-5.ps-xl-2.mx-auto
         .p-4.px-xl-5.w-100(style="background-color: #E1E8FF")
           p De esta manera, se pueden reemplazar los sustantivos de una oración por <b>pronombres de sujeto y objeto:</b>

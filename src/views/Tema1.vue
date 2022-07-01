@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span(style="color: white;") 1
       h1 Introducción al tiempo presente simple
-    p.mb-5(data-aos="fade-right") El primer tiempo verbal para aprender en inglés es el <em style="color: #FF5F65; font-weight: bold;">Simple Present,</em> o tiempo presente simple, el cual se puede emplear para:
+    p.mb-5(data-aos="fade-right") El primer tiempo verbal para aprender en inglés es el <em style="color: #FF5F65; font-weight: bold;">simple present,</em> o tiempo presente simple, el cual se puede emplear para:
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Tabla 1
@@ -94,7 +94,7 @@
           )
           p.w-100.mb-0.text-center <em style="color: #FF5F65 !important; font-weight: bold;">to be</em>
             br
-            | ser / estar
+            | ser estar
       .position-relative
         img(src="@/assets/curso/temas/tema1/2.jpg")
         .content-audio-carousel
@@ -339,7 +339,7 @@
           h4.text-white(style="font-size: 22px") ¿Por qué se pone <em style="color: #FFD947 !important">“to”</em> antes del verbo?
           p.text-white La partícula <em style="color: #FFD947 !important">to</em> es usada con la forma base de un verbo para indicar que el verbo está en infinitivo.
     
-    p.mb-5(data-aos="fade-left") Ahora, en concordancia gramatical entre el verbo y el sujeto <em style="color: #FF5F65 !important; font-weight: bold;">(Subject Verb Agreement)</em>, se determina que, cuando se conjuga en el tiempo presente simple, se pone, después del sujeto correspondiente, la forma base del verbo (sin la partícula to) y este solo se modifica cuando está conjugado con la tercera persona singular. <b>Se debe tener cuidado porque, según sea el caso el verbo, podría terminar en -s, -es o –ies:</b>
+    p.mb-5(data-aos="fade-left") Ahora, en concordancia gramatical entre el verbo y el sujeto <em style="color: #FF5F65 !important; font-weight: bold;">(subject verb agreement)</em>, se determina que, cuando se conjuga en el tiempo presente simple, se pone, después del sujeto correspondiente, la forma base del verbo (sin la partícula to) y este solo se modifica cuando está conjugado con la tercera persona singular. <b>Se debe tener cuidado porque, según sea el caso el verbo, podría terminar en -s, -es o –ies:</b>
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 2
@@ -353,11 +353,11 @@
           td
             p.fw-bold.mb-0 Condición
           td.color-blue-td
-            p.fw-bold.mb-0 to work
+            p.fw-bold.mb-0 To work
           td
-            p.fw-bold.mb-0 to go
+            p.fw-bold.mb-0 To go
           td
-            p.fw-bold.mb-0 to study
+            p.fw-bold.mb-0 To study
         tr
           td(rowspan="3")
             p.fw-bold.mb-0 Singular
@@ -386,7 +386,7 @@
             p.fw-bold.mb-0 2.ª persona
           td.color-blue-td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="you work"
+              texto="You work"
               :audio="require('@/assets/curso/temas/audios/1_1_conceptos_gramaticales/1_1-28.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
@@ -532,7 +532,7 @@
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Tabla 3
-      span Verbos distintivos <em>to be</em>, <em>to have</em> y <em>to do</em>
+      span Verbos distintivos <em>To be</em>, <em>to have</em> y <em>to do</em>
     .header-table-custom(data-aos="fade-left")
       img(src="@/assets/curso/temas/tema1/tabla-header-2.svg")
     .table-responsive(data-aos="fade-right")
@@ -541,11 +541,11 @@
           td
           td
           td.color-blue-td
-            p.fw-bold.mb-0 to be
+            p.fw-bold.mb-0 To be
           td
-            p.fw-bold.mb-0 to have
+            p.fw-bold.mb-0 To have
           td
-            p.fw-bold.mb-0 to do
+            p.fw-bold.mb-0 To do
         tr
           td(rowspan="5")
             p.fw-bold.mb-0 Singular
@@ -572,13 +572,13 @@
             p.fw-bold.mb-0 You are
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="you have"
+              texto="You have"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-3.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="you do"
+              texto="You do"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-4.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
@@ -589,13 +589,13 @@
             p.fw-bold.mb-0 He is
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="he has"
+              texto="He has"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-5.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="he does"
+              texto="He does"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-6.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
@@ -604,13 +604,13 @@
             p.fw-bold.mb-0 She is
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="she has"
+              texto="She has"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-7.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="she does"
+              texto="She does"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-8.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
@@ -619,13 +619,13 @@
             p.fw-bold.mb-0 It is
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="it has"
+              texto="It has"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-9.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="it does"
+              texto="It does"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-10.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
@@ -638,13 +638,13 @@
             p.fw-bold.mb-0 We are
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="we have"
+              texto="We have"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-11.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="we do"
+              texto="We do"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-12.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
@@ -655,13 +655,13 @@
             p.fw-bold.mb-0 You are
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="you have"
+              texto="You have"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-13.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="you do"
+              texto="You do"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-14.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
@@ -672,13 +672,13 @@
             p.fw-bold.mb-0 They are
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="they have"
+              texto="They have"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-15.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           td
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="they do"
+              texto="They do"
               :audio="require('@/assets/curso/temas/audios/1_2_Tercera_persona_singular_en_presente_simple/1_2-16.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
@@ -689,7 +689,7 @@
     p.mb-5(data-aos="fade-right") Las siguientes son las formas para estructurar oraciones que afirmen, nieguen o hagan preguntas sobre diferentes enunciados. La configuración de estas oraciones es un poco diferente a la del idioma español, razón por la cual se debe estar atento al orden y uso de las palabras, como se describe a continuación:
 
     TabsB.color-primario.mb-5.tabs-custom(data-aos="fade-left")
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/temas/tema1/pestanas-1.svg')")
+      .py-4.py-md-5(titulo="Frases afirmativas en presente simple" :icono="require('@/assets/curso/temas/tema1/pestanas-1.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
             h3.text-title-tabs Frases afirmativas en presente simple
@@ -704,7 +704,7 @@
                   :audio="require('@/assets/curso/temas/audios/1_3_1_Frases_afirmativas_en_presente_simple/1_3_1-1.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
-                p.ms-0.ms-md-4 Yo vivo en Colombia
+                p.ms-0.ms-md-4 Yo vivo en Colombia.
                 TarjetaAudio.color-acento-contenido.mb-1(
                   texto="You play the piano"
                   :audio="require('@/assets/curso/temas/audios/1_3_1_Frases_afirmativas_en_presente_simple/1_3_1-2.mp3')"
@@ -717,7 +717,7 @@
                   :audio="require('@/assets/curso/temas/audios/1_3_1_Frases_afirmativas_en_presente_simple/1_3_1-3.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
-                p.ms-0.ms-md-4 Él vive en Colombia
+                p.ms-0.ms-md-4 Él vive en Colombia.
                 TarjetaAudio.color-acento-contenido.mb-1(
                   texto="Sandra and Carla drink too much soda"
                   :audio="require('@/assets/curso/temas/audios/1_3_1_Frases_afirmativas_en_presente_simple/1_3_1-4.mp3')"
@@ -732,7 +732,7 @@
                 )
                 p.ms-0.ms-md-4 El perro duerme muy bien.
 
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/curso/temas/tema1/pestanas-2.svg')")
+      .py-4.py-md-5(titulo="Frases negativas en presente simple" :icono="require('@/assets/curso/temas/tema1/pestanas-2.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
             h3.text-title-tabs Frases negativas en presente simple
@@ -763,10 +763,10 @@
                 .col
                   p.mb-0 <b>Warning! / ¡Advertencia! </b> <br>
                     | Debido al uso del verbo auxiliar, el verbo principal siempre debe ir en forma base.
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/curso/temas/tema1/pestanas-3.svg')")
+      .py-4.py-md-5(titulo="Contracciones/<em>Contractions</em>" :icono="require('@/assets/curso/temas/tema1/pestanas-3.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
-            h3.text-title-tabs Contracciones / Contractions
+            h3.text-title-tabs Contracciones/Contractions
             p.w-100 Una contracción es la forma corta de un grupo de palabras omitiendo ciertas letras y sonidos, generalmente el apóstrofe representa la letra faltante. Una de las formas más comunes de contracciones es la que crean los verbos auxiliares como do o does unidos a la partícula de negación not.
             .d-flex.flex-wrap.w-100.p-4.mb-5(style="background-color: white")
               img(src="@/assets/curso/temas/tema1/img-tabs-1.svg" style="max-width: 238px").col-lg-5.mx-auto.mb-4.mb-lg-0
@@ -800,7 +800,7 @@
                 .col
                   p.mb-0 <b>Warning! / ¡Advertencia! </b> <br>
                     | Una regla general es la de evitar usar contracciones en contextos formales, como conversaciones, documentos y discursos académicos, oficiales o laborales. Las contracciones son más usadas en contextos informales, como conversaciones con amigos o personas de confianza, en la cotidianidad.
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/curso/temas/tema1/pestanas-4.svg')")
+      .py-4.py-md-5(titulo="Frases interrogativas en presente simple" :icono="require('@/assets/curso/temas/tema1/pestanas-4.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
             h3.text-title-tabs Contracciones / Contractions
@@ -832,10 +832,10 @@
                   p.mb-0 <b>Warning! / ¡Advertencia! </b> <br>
                     | En las estructuras interrogativas, el auxiliar va al principio de la oración.
 
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/curso/temas/tema1/pestanas-5.svg')")
+      .py-4.py-md-5(titulo="Preguntas de sí o no/<em>Yes or No questions</em>" :icono="require('@/assets/curso/temas/tema1/pestanas-5.svg')")
         .p-4.px-lg-5
           .d-flex.flex-wrap
-            h3.text-title-tabs Preguntas de Sí o No / Yes or No questions
+            h3.text-title-tabs Preguntas de sí o no / Yes or No questions
             p.w-100 También conocidas como <b>“preguntas cerradas”</b>, estas preguntas plantean un escenario al que se puede responder afirmativa o negativamente. Esto se puede hacer con respuestas completas o respuestas cortas.
             .d-flex.flex-wrap.w-100.my-5
               .d-flex.flex-wrap.col-xl-6.p-2.mb-5
@@ -949,7 +949,7 @@
         TabsA.color-acento-contenido
           .tarjeta.color-acento-botones--borde.p-4(titulo="1. What" style="background-color: #FFDFE0; border: none;")
             h4 What
-            p Pide información sobre algo, incluyendo acciones, objetos, características o información en general. Corresponde a la pregunta <b>¿qué?</b>
+            p Pide información sobre algo, incluyendo acciones, objetos, características o información en general. Corresponde a la pregunta <b>¿qué?</b>.
             .col-xl-10
               span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
               TarjetaAudio.color-acento-contenido.mb-1(
@@ -973,7 +973,7 @@
           
           .tarjeta.color-acento-botones--borde.p-4(titulo="2. Where" style="background-color: #FFDFE0; border: none;")
             h4 Where
-            p Pregunta por un <b>lugar</b> o una <b>ubicación</b> según el contexto de la pregunta.  Corresponde a la pregunta <b>¿dónde?</b>
+            p Pregunta por un <b>lugar</b> o una <b>ubicación</b> según el contexto de la pregunta.  Corresponde a la pregunta <b>¿dónde?</b>.
             .col-xl-10
               span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
               TarjetaAudio.color-acento-contenido.mb-1(
@@ -997,7 +997,7 @@
           
           .tarjeta.color-acento-botones--borde.p-4(titulo="3. When" style="background-color: #FFDFE0; border: none;")
             h4 When
-            p Pregunta por el <b>momento</b> en que una acción se realiza o tuvo lugar. Corresponde a la pregunta <b>¿cuándo?</b>
+            p Pregunta por el <b>momento</b> en que una acción se realiza o tuvo lugar. Corresponde a la pregunta <b>¿cuándo?</b>.
             span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
             .d-flex.flex-wrap.w-100
               .col-xl-6.pe-xl-4
@@ -1032,7 +1032,7 @@
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="4. Who" style="background-color: #FFDFE0; border: none;")
             h4 Who
-            p Pregunta por <b>alguien</b>, por una <b>persona</b>. Con la pregunta <em style="color: #FF5F65; font-weight: bold;">WHO</em>, se busca obtener un nombre, ya sea propio o común, que indique al sujeto u objeto. Corresponde a las preguntas <b>¿quién?</b> o <b>¿a quién?</b>
+            p Pregunta por <b>alguien</b>, por una <b>persona</b>. Con la pregunta <em style="color: #FF5F65; font-weight: bold;">WHO</em>, se busca obtener un nombre, ya sea propio o común, que indique al sujeto u objeto. Corresponde a las preguntas <b>¿quién?</b> o <b>¿a quién?</b>.
             span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
             .d-flex.flex-wrap.w-100
               .col-xl-6.pe-xl-4
@@ -1062,7 +1062,7 @@
           
           .tarjeta.color-acento-botones--borde.p-4(titulo="5. Why" style="background-color: #FFDFE0; border: none;")
             h4 Why
-            p Pregunta por un <b>motivo</b> o una <b>razón</b>. Corresponde a la pregunta <b>¿por qué?</b>
+            p Pregunta por un <b>motivo</b> o una <b>razón</b>. Corresponde a la pregunta <b>¿por qué?</b>.
             span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
             .col-xl-10
               TarjetaAudio.color-acento-contenido.mb-1(
@@ -1086,7 +1086,7 @@
       
           .tarjeta.color-acento-botones--borde.p-4(titulo="6. How" style="background-color: #FFDFE0; border: none;")
             h4 How
-            p Pregunta por el <b>modo</b> o la <b>forma</b> en que se realiza una acción. Corresponde a la pregunta <b>¿cómo?</b>
+            p Pregunta por el <b>modo</b> o la <b>forma</b> en que se realiza una acción. Corresponde a la pregunta <b>¿cómo?</b>.
             span(style="font-size: 13px; font-weight: bold;").ps-3 For example / Por ejemplo:
             .d-flex.flex-wrap.w-100
               .col-xl-6.pe-xl-4

@@ -112,13 +112,13 @@ export default {
   complementario: [
     {
       texto:
-        'Equipo académico - Teaching Centre in Colombia. (2021). <em>Estructura, reglas y ejemplos del present simple en inglés</em>. British Council Colombia.',
+        'Equipo académico-Teaching Centre in Colombia. (2021). <em>Estructura, reglas y ejemplos del present simple en inglés</em>. British Council Colombia.',
       tipo: 'Artículo Web',
       link: 'https://www.britishcouncil.co/blog/aprende-ingles/present-simple',
     },
     {
       texto:
-        'Inglés Fácil - ALEMA. (2018). <em>Pronombres Objeto En Inglés Diferencia Entre Object Pronouns y Subject Pronouns | Lección # 29</em> [Video]. YouTube.',
+        'Inglés Fácil-ALEMA. (2018). <em>Pronombres Objeto En Inglés Diferencia Entre Object Pronouns y Subject Pronouns | Lección # 29</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ftLQRXDcr40',
     },
@@ -159,12 +159,12 @@ export default {
     },
     {
       referencia:
-        'Equipo académico - Teaching Centre in Colombia. (2021). Estructura, reglas y ejemplos del present simple en inglés. British Council Colombia.',
+        'Equipo académico-Teaching Centre in Colombia. (2021). Estructura, reglas y ejemplos del present simple en inglés. British Council Colombia.',
       link: 'https://www.britishcouncil.co/blog/aprende-ingles/present-simple',
     },
     {
       referencia:
-        'Inglés Fácil - ALEMA. (2018). Pronombres Objeto En Inglés Diferencia Entre Object Pronouns y Subject Pronouns | Lección # 29 [Video]. YouTube.',
+        'Inglés Fácil-ALEMA. (2018). Pronombres Objeto En Inglés Diferencia Entre Object Pronouns y Subject Pronouns | Lección # 29 [Video]. YouTube.',
       link: 'https://www.youtube.com/watch?v=ftLQRXDcr40',
     },
   ],
@@ -181,29 +181,29 @@ export default {
         nombre: 'Michelle Manuela Pérez Hernández',
         cargo: 'Experta Temática',
         centro:
-          'Regional Distrito Capital - CENIGRAF - Centro para la Industria de la Comunicación Gráfica.',
+          'Regional Distrito Capital-CENIGRAF-Centro para la Industria de la Comunicación Gráfica.',
       },
       {
         nombre: 'Óscar Absalón Guevara',
         cargo: 'Diseñador Instruccional',
         centro:
-          'Regional Santander - Centro de la Industria, la Empresa y los Servicios – CIES',
+          'Regional Santander-Centro de la Industria, la Empresa y los Servicios–CIES',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
         cargo: 'Asesora Metodológica',
-        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+        centro: 'Regional Distrito Capital–Centro de Diseño y Metrología',
       },
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Darío González',
         cargo: 'Corrector de Estilo',
-        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+        centro: 'Regional Distrito Capital–Centro de Diseño y Metrología',
       },
     ],
     desarrolloProducto: [
@@ -211,19 +211,19 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Yuly Rey',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Zuleidy María Ruíz Torres',
@@ -234,62 +234,62 @@ export default {
         nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Lady Adriana Ariza Luque',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Oleg Litvin',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'María Carolina Tamayo López',
         cargo: 'Locución',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Estefani Daniela Gallo Corté',
         cargo: 'Ilustración',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Miguel Guerrero Gutiérrez',
         cargo: 'Ilustración',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
         nombre: 'Jhon Edinson Castañeda Oviedo',
         cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Lina Marcela Perez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura-Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios-Regional Tolima',
       },
     ],
   },
