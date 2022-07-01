@@ -26,7 +26,8 @@
     .imagen_flotante_5: img(src="@/assets/curso/portada/flot5.svg").d-none.d-lg-block
     .imagen_flotante_6: img(src="@/assets/curso/portada/flot6.svg").d-none.d-lg-block
     .imagen_flotante_7: img(src="@/assets/curso/portada/flot7.svg").d-none.d-lg-block
-  
+    .imagen_flotante_9: img(src="@/assets/curso/portada/flag.svg").d-none.d-lg-block
+
 </template>
 
 <script>
@@ -166,6 +167,12 @@ export default {
     width: 50px
     bottom: 20%
     right: 8%
+    z-index: 99
+  &_9
+    position: absolute
+    width: 72,94px
+    top: 12%
+    left: 10%
     z-index: 99
 @keyframes flash
   0%
