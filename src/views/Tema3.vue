@@ -1020,8 +1020,8 @@
 
     Dialogo.color-primario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) Titulo de actividad - Completa la conversación.
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#titulo-actividad) <em>At the immigration and citizenship office</em> / En la oficina de inmigración y ciudadanía.
+      template(#descripcion-actividad) Escuche los audios y complete los espacios  de cada una de las frases arrastrando el término correcto.
 </template>
 
 <script>
@@ -1045,11 +1045,11 @@ export default {
       personajes: [
         {
           nombre: 'Immigration officer',
-          img: require('@/assets/componentes/ej-05.svg'),
+          img: require('@/assets/curso/temas/tema3/officer.svg'),
         },
         {
           nombre: 'Sandra',
-          img: require('@/assets/componentes/ej-05.svg'),
+          img: require('@/assets/curso/temas/tema3/girl.svg'),
         },
       ],
       dialogo: [
@@ -1224,4 +1224,7 @@ export default {
 .modal-recordar
   .modal-a__content
     background-color: #FFF0B5 !important
+.dialogo__chat__item__person img
+  width: 90px
+  height: 90px
 </style>
