@@ -16,7 +16,7 @@
       .col-lg-4.mb-4.mb-lg-0.mx-auto
         img(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 262px").mx-auto
       SlyderF.slider-content-cf.col-12.col-lg-8.align-items-center
-        .tarjeta-content-t1(data-aos="fade-up")
+        .tarjeta-content-t1.p-2.px-md-4(data-aos="fade-up")
           .container-card
             p.ps-3.fw-bold Condición
             p.ps-3.mb-4 Comunicar acciones o estados permanentes.
@@ -28,7 +28,7 @@
             )
             p.ps-3 Colombia tiene una enorme industria hotelera.
         
-        .tarjeta-content-t1
+        .tarjeta-content-t1.p-2.px-md-4
           .container-card
             p.ps-3.fw-bold Condición
             p.ps-3.mb-4 Al hablar de estados que tienen regularidad o periodicidad.
@@ -40,7 +40,7 @@
             )
             p.ps-3 Voy al dentista cada año.
         
-        .tarjeta-content-t1
+        .tarjeta-content-t1.p-2.px-md-4
           .container-card
             p.ps-3.fw-bold Condición
             p.ps-3.mb-4 Cuando se hace referencia a rutinas, hábitos o cosas que se realizan con cierta frecuencia.
@@ -52,7 +52,7 @@
             )
             p.ps-3 Ana se despierta todos los días a las 6:00 am.
         
-        .tarjeta-content-t1
+        .tarjeta-content-t1.p-2.px-md-4
           .container-card
             p.ps-3.fw-bold Condición
             p.ps-3.mb-4 Al dar instrucciones, indicaciones o señales.
@@ -64,7 +64,7 @@
             )
             p.ps-3 Gire a la izquierda y luego baje por la calle Oak.
         
-        .tarjeta-content-t1
+        .tarjeta-content-t1.p-2.px-md-4
           .container-card
             p.ps-3.fw-bold Condición
             p.ps-3.mb-4 Cuando se enuncian hechos, compromisos, citas que se van a llevar a cabo en un momento determinado.
@@ -94,7 +94,7 @@
           )
           p.w-100.mb-0.text-center <em style="color: #FF5F65 !important; font-weight: bold;">to be</em>
             br
-            | ser estar
+            | ser/estar
       .position-relative
         img(src="@/assets/curso/temas/tema1/2.jpg")
         .content-audio-carousel
@@ -1387,6 +1387,8 @@ export default {
   width: 80%
   margin-right: auto
   margin-left: auto
+  @media (max-width: 768px)
+    width: 100%
 .bg-content-50
   display: flex
   flex-wrap: wrap

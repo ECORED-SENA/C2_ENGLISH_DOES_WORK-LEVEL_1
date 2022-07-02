@@ -111,19 +111,22 @@ export default {
   },
   complementario: [
     {
-      texto:
+      tema: 'Introducción al tiempo presente simple',
+      referencia:
         'Equipo académico-Teaching Centre in Colombia. (2021). <em>Estructura, reglas y ejemplos del present simple en inglés</em>. British Council Colombia.',
       tipo: 'Artículo Web',
       link: 'https://www.britishcouncil.co/blog/aprende-ingles/present-simple',
     },
     {
-      texto:
+      tema: 'Pronombres personales en función del sujeto y el objeto',
+      referencia:
         'Inglés Fácil-ALEMA. (2018). <em>Pronombres Objeto En Inglés Diferencia Entre Object Pronouns y Subject Pronouns | Lección # 29</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ftLQRXDcr40',
     },
     {
-      texto:
+      tema: 'Personal information',
+      referencia:
         'Do you speak English? (2015). <em>Personal Information / La Información Personal (Repaso)</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=IVPE_HydoVA',
@@ -143,7 +146,7 @@ export default {
     {
       termino: '<em>Pronouns</em> / Pronombres',
       significado:
-        'conjunto de palabras, como, por ejemplo: yo, ella, él, usted, eso, nosotros o ellos, que en un idioma se usan como sustitutos de sustantivos o frases nominales y cuyos referentes se nombran o entienden en el contexto; estos pueden ser pronombres de sujeto o pronombres de objeto, pero también existen otros tipos, como pronombres posesivos, pronombres reflexivos, etc.',
+        'conjunto de palabras, como por ejemplo: yo, ella, él, usted, eso, nosotros o ellos, que en un idioma se usan como sustitutos de sustantivos o frases nominales y cuyos referentes se nombran o entienden en el contexto; estos pueden ser pronombres de sujeto o pronombres de objeto, pero también existen otros tipos, como pronombres posesivos, pronombres reflexivos, etc.',
     },
     {
       termino: '<em>Verb tense</em< / Tiempo verbal',

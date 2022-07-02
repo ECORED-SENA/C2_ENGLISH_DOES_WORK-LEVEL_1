@@ -163,7 +163,7 @@
                       :audio="require('@/assets/curso/temas/audios/personal_information/3_4 Address  Dirección/3_4-1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-                    p.ps-3 ¿Cuál es su profesión?
+                    p.ps-3 126 avenida prncipal
                   .col-lg-10.col-xl-6.ps-xl-3
                     p.mb-0 Nunca se dice:
                     p.fw-bold(style="color: #3C3FA7") <em>126 Main Avenue → One hundred twenty-six Main Avenue. <span style="color: #FF5F65">(Es incorrecto)</span></em>
@@ -193,8 +193,8 @@
                 .d-flex.flex-wrap
                   .col-lg-10.col-xl-6.pe-xl-3
                     TarjetaAudio.color-acento-contenido.mb-1(
-                      texto="One two six Main Avenue."
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_5 Phone number  Número telefónico/3_5-1.mp3')"
+                      texto="What’s your phone number?"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_5 Phone number  Número telefónico/3_5-3.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 ¿Cuál es su número de teléfono?
@@ -209,8 +209,8 @@
                 .col-lg-10.col-xl-10.pe-xl-3
                   p.ps-3.mb-1.fw-bold(style="color: #3C3FA7") <em>The phone number is 918-2435.</em>
                   TarjetaAudio.color-acento-contenido.mb-1(
-                    texto="One two six Main Avenue."
-                    :audio="require('@/assets/curso/temas/audios/personal_information/3_5 Phone number  Número telefónico/3_5-3.mp3')"
+                    texto="The phone number is 918-2435."
+                    :audio="require('@/assets/curso/temas/audios/personal_information/3_5 Phone number  Número telefónico/3_5-1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   p.ps-3 El número telefónico es nueve, uno, ocho, dos, cuatro, tres, cinco.
@@ -243,7 +243,7 @@
                       :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-2.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
-                    p.ps-3.fw-bold(style="color: #3C3FA7") You have 16 years.
+                    p.ps-3.fw-bold(style="color: #3C3FA7") You have 16 years. ( Incorrecto )
                 
                 .d-flex.align-items-center.ms-5.mt-5(style="background-color: #3C3FA7; max-height: 65px;")
                   img(src="@/assets/curso/temas/tema1/alerta.svg" style="min-height: 85px; max-width: 85px; margin-top: -20px; margin-left: -43px")
@@ -466,14 +466,14 @@
                     :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Aunt.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
-                  p.ps-4.text-start Madre
+                  p.ps-4.text-start Tía
                 .col-12.col-xl-6.px-1
                   TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                     texto="Niece"
                     :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Niece.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
-                  p.ps-4.text-start Hija
+                  p.ps-4.text-start Sobrina
                 
           .col-12.col-lg-6.ps-lg-2.mt-5.mt-lg-0.pt-5.pt-lg-0.mx-auto
             .card-t3-pestanas-2
@@ -486,14 +486,14 @@
                     :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Uncle.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
-                  p.ps-4.text-start Padre
+                  p.ps-4.text-start Tío
                 .col-12.col-xl-6.px-1
                   TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                     texto="Nephew"
                     :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Nephew.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
-                  p.ps-4.text-start Hijo
+                  p.ps-4.text-start Sobrino
           .tarjeta.py-3.px-4.d-flex.flex-wrap.align-items-center.justify-content-center.w-100.mt-4.mt-lg-3(style="background-color: #FFD947")
             .col-12.col-md-5.col-lg-4
               TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
@@ -501,7 +501,7 @@
                 :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Cousin.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
-              p.mb-0.ps-4.text-start Padre
+              p.mb-0.ps-4.text-start Primo/Prima
             .col-12.col-md-5.col-lg-6.ps-4
               p.mb-0 (sin importar el género, no importa si es hombre o mujer)
       
@@ -639,14 +639,14 @@
                 :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Who is that person.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
-              p.mb-0.ps-4.text-start Hermanastro
+              p.mb-0.ps-4.text-start ¿Quién es esa persona?
             .col-12.col-md-6.col-xl-4.px-2.mb-4.mb-xl-0
               TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                 texto="She's my mother."
                 :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Shes my mother.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
-              p.mb-0.ps-4.text-start Hermanastro
+              p.mb-0.ps-4.text-start Ella es mi madre.
             .col-12.col-xl-3.px-2
               a.btn-openmodal.boton.color-acento-contenido.indicador__container.w-100(@click="modal1 = true")
                 span.text-white.fw-bold.mx-auto Estructura de la familia
@@ -903,14 +903,14 @@
           .tarjeta.p-3.py-4.d-flex.align-items-start(style="background-color: white")
             img(src="@/assets/curso/temas/tema3/num-2.svg" style="max-width: 59px; margin-left: -40px")
             .d-flex.flex-wrap.px-4
-              p.ps-0.ps-md-4 Usualmente, cuando hay un número <b>cero (0)</b> en el número telefónico, no se pronuncia <em style="color: #FF5F65 !important; font-weight: bold">zero</em> (el nombre del número), sino que se dice <em style="color: #FF5F65 !important; font-weight: bold">“oh”</em>, como el nombre de la letra <b>O:</b>
-              p.ps-0.ps-md-4.mb-0.fw-bold(style="color: #3C3FA7") My phone number is 573-806.
+              p.ps-0.ps-md-4 Cuando el mismo número se repite de manera consecutiva, en vez de nombrarlo repetidamente, <b>se dice si ese dígito va doble o triple</b>:
+              p.ps-0.ps-md-4.mb-0.fw-bold(style="color: #3C3FA7") The phone number is 355-27771.
               TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                 texto="The phone number is three, double five, two, triple seven, one."
                 :audio="require('@/assets/curso/temas/audios/personal_information/3_5 Phone number  Número telefónico/chat_2.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
-              p.mb-0.ps-0.ps-md-4.text-start Mi número telefónico es cinco, siete, tres, ocho, cero, seis.
+              p.mb-0.ps-0.ps-md-4.text-start El número telefónico es tres, doble cinco, dos, triple siete, uno.
 
 
     ModalA.modal-recordar(:abrir-modal.sync="modal5")
@@ -943,7 +943,7 @@
                   :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-5.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
-                p.mb-0.ps-0.ps-md-4.text-start.fw-bold(style="color: #3C3FA7") Sandra is 24 years. ( Incorrecto )
+                p.mb-0.ps-0.ps-md-4.text-start.fw-bold(style="color: #3C3FA7") He is 55 years. ( Incorrecto )
               .col-12.col-xl-6.px-2.mt-4
                 TarjetaAudio.mt-4.w-100.text-start.color-acento-contenido.mb-1(
                   texto="He is 55."
@@ -963,14 +963,15 @@
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
               .col-12.col-xl-6.px-2
-                TarjetaAudio.mt-4.w-100.text-start.color-acento-contenido.mb-1(
+                p.mb-0.w-100.ps-4 Ella tiene 10 meses.
+                TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                   texto="She is 10 months old."
                   :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-8.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
 
           .tarjeta.p-3.py-4.d-flex.align-items-start.mb-4(style="background-color: white")
-            img(src="@/assets/curso/temas/tema3/num-2.svg" style="max-width: 59px; margin-left: -40px")
+            img(src="@/assets/curso/temas/tema3/num-3.svg" style="max-width: 59px; margin-left: -40px")
             .d-flex.flex-wrap.w-100.px-4
               .col-12.col-xl-6.px-2
                 TarjetaAudio.mt-4.w-100.text-start.color-acento-contenido.mb-1(
@@ -981,7 +982,7 @@
                 p.mb-0.ps-0.ps-md-4.text-start ¿Cuántos años tienes?
               .col-12.col-xl-6.px-2
                 TarjetaAudio.audio-green.mt-4.w-100.text-start.color-acento-contenido.mb-1(
-                  texto="I'm thirty years old."
+                  texto="I'm twenty-eight years old."
                   :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-10.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
