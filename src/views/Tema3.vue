@@ -23,14 +23,14 @@
                   .col-lg-10.col-xl-6.pe-xl-3
                     TarjetaAudio.color-acento-contenido.mb-1(
                       texto="What's your name?"
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_1 Name  Nombre/3_1-1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_1-Name-Nombre/3_1-1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 ¿Cuál es su nombre?
                   .col-lg-10.col-xl-6.ps-xl-3
                     TarjetaAudio.audio-green.color-acento-contenido.mb-1(
                       texto="My name is Cindy Perez."
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_1 Name  Nombre/3_1-2.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_1-Name-Nombre/3_1-2.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 Mi nombre es Cindy Pérez.
@@ -39,14 +39,14 @@
                   .col-lg-10.col-xl-5.pe-xl-3
                     TarjetaAudio.color-acento-contenido.mb-1(
                       texto="Who are you?"
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_1 Name  Nombre/3_1-3.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_1-Name-Nombre/3_1-3.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 ¿Quién es usted?
                   .col-lg-10.col-xl-7.ps-xl-3
                     TarjetaAudio.audio-green.color-acento-contenido.mb-1(
                       texto="I am Hector Sanchez, the new teacher."
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_1 Name  Nombre/3_1-4.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_1-Name-Nombre/3_1-4.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 Soy Héctor Sánchez, el nuevo profesor.
@@ -80,14 +80,14 @@
                   .col-lg-10.col-xl-6.pe-xl-3
                     TarjetaAudio.color-acento-contenido.mb-1(
                       texto="Where are you from?"
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_2 Nationality  Nacionalidad/3_2-1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_2-Nationality-Nacionalidad/3_2-1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 ¿De dónde es usted?
                   .col-lg-10.col-xl-6.ps-xl-3
                     TarjetaAudio.color-acento-contenido.mb-1(
                       texto="Where do you come from?"
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_2 Nationality  Nacionalidad/3_2-2.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_2-Nationality-Nacionalidad/3_2-2.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 ¿De dónde viene usted?
@@ -96,7 +96,7 @@
                 .col-lg-10.col-xl-6.pe-xl-3
                   TarjetaAudio.color-acento-contenido.mb-1(
                     texto="I'm Colombian."
-                    :audio="require('@/assets/curso/temas/audios/personal_information/3_2 Nationality  Nacionalidad/3_2-3.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/personal_information/3_2-Nationality-Nacionalidad/3_2-3.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   p.ps-3 Soy colombiano / colombiana.
@@ -119,14 +119,14 @@
                   .col-lg-10.col-xl-6.pe-xl-3
                     TarjetaAudio.color-acento-contenido.mb-1(
                       texto="What is your profession?"
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_3 Occupation  Ocupación/3_3-1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_3-Occupation-Ocupacion/3_3-1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 ¿Cuál es su profesión?
                   .col-lg-10.col-xl-6.ps-xl-3
                     TarjetaAudio.color-acento-contenido.mb-1(
                       texto="What is your occupation?"
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_3 Occupation  Ocupación/3_3-2.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_3-Occupation-Ocupacion/3_3-2.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 ¿Cuál es su ocupación?
@@ -134,7 +134,7 @@
                 .col-lg-10.col-xl-6.pe-xl-3
                   TarjetaAudio.color-acento-contenido.mb-1(
                     texto="What do you do for a living?"
-                    :audio="require('@/assets/curso/temas/audios/personal_information/3_3 Occupation  Ocupación/3_3-3.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/personal_information/3_3-Occupation-Ocupacion/3_3-3.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   p.ps-3 ¿A qué se dedica?
@@ -160,7 +160,7 @@
                   .col-lg-10.col-xl-6.pe-xl-3
                     TarjetaAudio.color-acento-contenido.mb-1(
                       texto="126 Main Avenue"
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_4 Address  Dirección/3_4-1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_4-Address-Direccion/3_4-1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 126 avenida prncipal
@@ -171,7 +171,7 @@
                 .col-lg-10.col-xl-6.pe-xl-3
                   TarjetaAudio.color-acento-contenido.mb-1(
                     texto="One two six Main Avenue."
-                    :audio="require('@/assets/curso/temas/audios/personal_information/3_4 Address  Dirección/3_4-2.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/personal_information/3_4-Address-Direccion/3_4-2.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   p.ps-3 #126 de la Avenida Main.
@@ -194,14 +194,14 @@
                   .col-lg-10.col-xl-6.pe-xl-3
                     TarjetaAudio.color-acento-contenido.mb-1(
                       texto="What’s your phone number?"
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_5 Phone number  Número telefónico/3_5-3.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_5-Phone-number-Numero-telefonico/3_5-3.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 ¿Cuál es su número de teléfono?
                   .col-lg-10.col-xl-6.pe-xl-3
                     TarjetaAudio.audio-green.color-acento-contenido.mb-1(
                       texto="My phone number is 5702-3460."
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_5 Phone number  Número telefónico/3_5-2.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_5-Phone-number-Numero-telefonico/3_5-2.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3 Mi número de teléfono es 5702-3460.
@@ -210,7 +210,7 @@
                   p.ps-3.mb-1.fw-bold(style="color: #3C3FA7") <em>The phone number is 918-2435.</em>
                   TarjetaAudio.color-acento-contenido.mb-1(
                     texto="The phone number is 918-2435."
-                    :audio="require('@/assets/curso/temas/audios/personal_information/3_5 Phone number  Número telefónico/3_5-1.mp3')"
+                    :audio="require('@/assets/curso/temas/audios/personal_information/3_5-Phone-number-Numero-telefonico/3_5-1.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   p.ps-3 El número telefónico es nueve, uno, ocho, dos, cuatro, tres, cinco.
@@ -233,14 +233,14 @@
                   .col-lg-10.col-xl-6.pe-xl-3
                     TarjetaAudio.color-acento-contenido.mb-1(
                       texto="I am 30 years old."
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-1.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-1.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3.fw-bold(style="color: #3C3FA7") I have 30 years. ( Incorrecto )
                   .col-lg-10.col-xl-6.pe-xl-3
                     TarjetaAudio.color-acento-contenido.mb-1(
                       texto="You are 16 years old."
-                      :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-2.mp3')"
+                      :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-2.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3.fw-bold(style="color: #3C3FA7") You have 16 years. ( Incorrecto )
@@ -350,13 +350,13 @@
               .d-flex.flex-wrap
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                   texto="Great-great grandmother"
-                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great-great grandmother.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great-great_grandmother.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.w-100.ps-4.text-start Tatarabuela
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                   texto="Great grandmother"
-                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great grandmother.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great_grandmother.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.w-100.ps-4.text-start Bisabuela
@@ -386,13 +386,13 @@
                 p.w-100.ps-4.text-start Nieta
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                   texto="Great granddaughter"
-                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great granddaughter.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great_granddaughter.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.w-100.ps-4.text-start Bisnieta
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                   texto="Great-great granddaughter"
-                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Greatgreat granddaughter.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Greatgreat_granddaughter.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.w-100.ps-4.text-start Tataranieta
@@ -404,13 +404,13 @@
               .d-flex.flex-wrap
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                   texto="Great-great grandfather"
-                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great-great grandfather.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great_Great_Grandfather.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.w-100.ps-4.text-start Tatarabuelo
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                   texto="Great grandfather"
-                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great grandfather.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great_grandfather.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.w-100.ps-4.text-start Bisabuelo
@@ -440,13 +440,13 @@
                 p.w-100.ps-4.text-start Nieto
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                   texto="Great grandson"
-                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great grandson.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Great_grandson.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.w-100.ps-4.text-start Bisnieto
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
-                  texto="Great-great grandson"
-                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Greatgreat grandson.mp3')"
+                  texto="Grea_-great grandson"
+                  :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Greatgreat_grandson.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.w-100.ps-4.text-start Tataranieto
@@ -637,14 +637,14 @@
             .col-12.col-md-6.col-xl-4.px-2.mb-4.mb-xl-0
               TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                 texto="Who is that person?"
-                :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Who is that person.mp3')"
+                :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Who_is_that_person.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-4.text-start ¿Quién es esa persona?
             .col-12.col-md-6.col-xl-4.px-2.mb-4.mb-xl-0
               TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                 texto="She's my mother."
-                :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Shes my mother.mp3')"
+                :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Shes_my_mother.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-4.text-start Ella es mi madre.
@@ -661,39 +661,39 @@
         .col-lg-6.col-xl-3.px-2.mx-auto
           TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
             texto="American"
-            :audio="require('@/assets/curso/temas/audios/personal_information/3_2 Nationality  Nacionalidad/3_2-4.mp3')"
+            :audio="require('@/assets/curso/temas/audios/personal_information/3_2-Nationality-Nacionalidad/3_2-4.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.mb-0.ps-4.text-start (estadounidense)
           TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
             texto="Canadian"
-            :audio="require('@/assets/curso/temas/audios/personal_information/3_2 Nationality  Nacionalidad/3_2-5.mp3')"
+            :audio="require('@/assets/curso/temas/audios/personal_information/3_2-Nationality-Nacionalidad/3_2-5.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.mb-0.ps-4.text-start (canadiense)
         .col-lg-6.col-xl-3.px-2.mx-auto
           TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
             texto="Australian"
-            :audio="require('@/assets/curso/temas/audios/personal_information/3_2 Nationality  Nacionalidad/3_2-6.mp3')"
+            :audio="require('@/assets/curso/temas/audios/personal_information/3_2-Nationality-Nacionalidad/3_2-6.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.mb-0.ps-4.text-start (australiano)
           TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
             texto="Japanese"
-            :audio="require('@/assets/curso/temas/audios/personal_information/3_2 Nationality  Nacionalidad/3_2-7.mp3')"
+            :audio="require('@/assets/curso/temas/audios/personal_information/3_2-Nationality-Nacionalidad/3_2-7.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.mb-0.ps-4.text-start (japonés)
         .col-lg-6.col-xl-3.px-2.mx-auto
           TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
             texto="Brazilian"
-            :audio="require('@/assets/curso/temas/audios/personal_information/3_2 Nationality  Nacionalidad/3_2-8.mp3')"
+            :audio="require('@/assets/curso/temas/audios/personal_information/3_2-Nationality-Nacionalidad/3_2-8.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.mb-0.ps-4.text-start (brasileño)
           TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
             texto="Venezuelan"
-            :audio="require('@/assets/curso/temas/audios/personal_information/3_2 Nationality  Nacionalidad/3_2-9.mp3')"
+            :audio="require('@/assets/curso/temas/audios/personal_information/3_2-Nationality-Nacionalidad/3_2-9.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.mb-0.ps-4.text-start (venezolano)
@@ -702,14 +702,14 @@
             .col-12.col-lg-6.px-2
               TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                 texto="Where are you from?"
-                :audio="require('@/assets/curso/temas/audios/personal_information/3_2 Nationality  Nacionalidad/3_2-1.mp3')"
+                :audio="require('@/assets/curso/temas/audios/personal_information/3_2-Nationality-Nacionalidad/3_2-1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-4.text-start ¿De dónde es usted?
             .col-12.col-lg-6.px-2
               TarjetaAudio.audio-green.w-100.text-start.color-acento-contenido.mb-1(
                 texto="I’m Colombian. I’m from Cúcuta."
-                :audio="require('@/assets/curso/temas/audios/personal_information/3_2 Nationality  Nacionalidad/3_2-11.mp3')"
+                :audio="require('@/assets/curso/temas/audios/personal_information/3_2-Nationality-Nacionalidad/3_2-11.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-4.text-start Yo soy colombiana. Soy de Cúcuta.
@@ -736,14 +736,14 @@
           img(src="@/assets/curso/temas/tema3/1.svg" style="max-width: 107px").mx-auto.mb-3
           TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
             texto="Accountant"
-            :audio="require('@/assets/curso/temas/audios/personal_information/3_3 Occupation  Ocupación/3_3-4.mp3')"
+            :audio="require('@/assets/curso/temas/audios/personal_information/3_3-Occupation-Ocupacion/3_3-4.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.ps-4.text-start (contador)
           img(src="@/assets/curso/temas/tema3/4.svg" style="max-width: 107px").mx-auto.mb-3
           TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
             texto="Carpenter"
-            :audio="require('@/assets/curso/temas/audios/personal_information/3_3 Occupation  Ocupación/3_3-5.mp3')"
+            :audio="require('@/assets/curso/temas/audios/personal_information/3_3-Occupation-Ocupacion/3_3-5.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.ps-4.text-start (carpintero)
@@ -751,14 +751,14 @@
           img(src="@/assets/curso/temas/tema3/2.svg" style="max-width: 107px").mx-auto.mb-3
           TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
             texto="Baker"
-            :audio="require('@/assets/curso/temas/audios/personal_information/3_3 Occupation  Ocupación/3_3-6.mp3')"
+            :audio="require('@/assets/curso/temas/audios/personal_information/3_3-Occupation-Ocupacion/3_3-6.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.ps-4.text-start (panadero)
           img(src="@/assets/curso/temas/tema3/5.svg" style="max-width: 107px").mx-auto.mb-3
           TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
             texto="Journalist"
-            :audio="require('@/assets/curso/temas/audios/personal_information/3_3 Occupation  Ocupación/3_3-7.mp3')"
+            :audio="require('@/assets/curso/temas/audios/personal_information/3_3-Occupation-Ocupacion/3_3-7.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.ps-4.text-start (periodista)
@@ -766,14 +766,14 @@
           img(src="@/assets/curso/temas/tema3/3.svg" style="max-width: 107px").mx-auto.mb-3
           TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
             texto="Butcher"
-            :audio="require('@/assets/curso/temas/audios/personal_information/3_3 Occupation  Ocupación/3_3-8.mp3')"
+            :audio="require('@/assets/curso/temas/audios/personal_information/3_3-Occupation-Ocupacion/3_3-8.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.ps-4.text-start (carnicero)
           img(src="@/assets/curso/temas/tema3/6.svg" style="max-width: 107px").mx-auto.mb-3
           TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
             texto="Secretary"
-            :audio="require('@/assets/curso/temas/audios/personal_information/3_3 Occupation  Ocupación/3_3-9.mp3')"
+            :audio="require('@/assets/curso/temas/audios/personal_information/3_3-Occupation-Ocupacion/3_3-9.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
           p.ps-4.text-start (secretaria)
@@ -782,14 +782,14 @@
             .col-12.col-lg-6.px-2
               TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                 texto="What do you do for a living?"
-                :audio="require('@/assets/curso/temas/audios/personal_information/3_3 Occupation  Ocupación/3_3-3.mp3')"
+                :audio="require('@/assets/curso/temas/audios/personal_information/3_3-Occupation-Ocupacion/3_3-3.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-4.text-start ¿A qué se dedica?
             .col-12.col-lg-6.px-2
               TarjetaAudio.audio-green.w-100.text-start.color-acento-contenido.mb-1(
                 texto="I am a singer."
-                :audio="require('@/assets/curso/temas/audios/personal_information/3_3 Occupation  Ocupación/3_3-11.mp3')"
+                :audio="require('@/assets/curso/temas/audios/personal_information/3_3-Occupation-Ocupacion/3_3-11.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-4.text-start Soy cantante.
@@ -817,39 +817,39 @@
           .col-lg-6.col-xl-4.px-2.mx-auto
             TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
               texto="Street"
-              :audio="require('@/assets/curso/temas/audios/personal_information/3_4 Address  Dirección/3_4-3.mp3')"
+              :audio="require('@/assets/curso/temas/audios/personal_information/3_4-Address-Direccion/3_4-3.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.mb-0.ps-4.text-start (calle)
             TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
               texto="Neighborhood"
-              :audio="require('@/assets/curso/temas/audios/personal_information/3_4 Address  Dirección/3_4-4.mp3')"
+              :audio="require('@/assets/curso/temas/audios/personal_information/3_4-Address-Direccion/3_4-4.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.mb-0.ps-4.text-start (barrio / vecindario)
           .col-lg-6.col-xl-4.px-2.mx-auto
             TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
               texto="Avenue"
-              :audio="require('@/assets/curso/temas/audios/personal_information/3_4 Address  Dirección/3_4-5.mp3')"
+              :audio="require('@/assets/curso/temas/audios/personal_information/3_4-Address-Direccion/3_4-5.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.mb-0.ps-4.text-start (avenida)
             TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
               texto="Corner"
-              :audio="require('@/assets/curso/temas/audios/personal_information/3_4 Address  Dirección/3_4-6.mp3')"
+              :audio="require('@/assets/curso/temas/audios/personal_information/3_4-Address-Direccion/3_4-6.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.mb-0.ps-4.text-start (esquina)
           .col-lg-6.col-xl-4.px-2.mx-auto
             TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
               texto="Road"
-              :audio="require('@/assets/curso/temas/audios/personal_information/3_4 Address  Dirección/3_4-7.mp3')"
+              :audio="require('@/assets/curso/temas/audios/personal_information/3_4-Address-Direccion/3_4-7.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.mb-0.ps-4.text-start (camino / vía)
             TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
               texto="City"
-              :audio="require('@/assets/curso/temas/audios/personal_information/3_4 Address  Dirección/3_4-8.mp3')"
+              :audio="require('@/assets/curso/temas/audios/personal_information/3_4-Address-Direccion/3_4-8.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.mb-0.ps-4.text-start (ciudad)
@@ -858,14 +858,14 @@
             .col-12.col-lg-5.px-2
               TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                 texto="What’s your address?"
-                :audio="require('@/assets/curso/temas/audios/personal_information/3_4 Address  Dirección/3_4-9.mp3')"
+                :audio="require('@/assets/curso/temas/audios/personal_information/3_4-Address-Direccion/3_4-9.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-4.text-start ¿Cuál es su dirección?
             .col-12.col-lg-7.px-2
               TarjetaAudio.audio-green.w-100.text-start.color-acento-contenido.mb-1(
                 texto="My address is 15th Street #4-23. Downtown."
-                :audio="require('@/assets/curso/temas/audios/personal_information/3_4 Address  Dirección/3_4-10.mp3')"
+                :audio="require('@/assets/curso/temas/audios/personal_information/3_4-Address-Direccion/3_4-10.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-4.text-start Mi dirección es la calle 15 #4-23. Centro.
@@ -897,7 +897,7 @@
               p.ps-0.ps-md-4.mb-0.fw-bold(style="color: #3C3FA7") My phone number is 573-806.
               TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                 texto="My phone number is five, seven, three, eight, oh, six."
-                :audio="require('@/assets/curso/temas/audios/personal_information/3_5 Phone number  Número telefónico/chat_1.mp3')"
+                :audio="require('@/assets/curso/temas/audios/personal_information/3_5-Phone-number-Numero-telefonico/chat_1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-0.ps-md-4.text-start Mi número telefónico es cinco, siete, tres, ocho, cero, seis.
@@ -909,7 +909,7 @@
               p.ps-0.ps-md-4.mb-0.fw-bold(style="color: #3C3FA7") The phone number is 355-27771.
               TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                 texto="The phone number is three, double five, two, triple seven, one."
-                :audio="require('@/assets/curso/temas/audios/personal_information/3_5 Phone number  Número telefónico/chat_2.mp3')"
+                :audio="require('@/assets/curso/temas/audios/personal_information/3_5-Phone-number-Numero-telefonico/chat_2.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-0.ps-md-4.text-start El número telefónico es tres, doble cinco, dos, triple siete, uno.
@@ -928,28 +928,28 @@
                 p.mb-0.w-100.ps-4 Sandra tiene 24 años.
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                   texto="Sandra is 24 years old."
-                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-3.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-3.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ps-0.ps-md-4.text-start.fw-bold(style="color: #3C3FA7") Sandra is 24 years. ( Incorrecto )
               .col-12.col-xl-6.px-2
                 TarjetaAudio.mt-4.w-100.text-start.color-acento-contenido.mb-1(
                   texto="Sandra is 24."
-                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-4.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-4.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
               .col-12.col-xl-6.px-2.mt-4
                 p.mb-0.w-100.ps-4 Él tiene 55 años.
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                   texto="He is 55 years old."
-                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-5.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-5.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ps-0.ps-md-4.text-start.fw-bold(style="color: #3C3FA7") He is 55 years. ( Incorrecto )
               .col-12.col-xl-6.px-2.mt-4
                 TarjetaAudio.mt-4.w-100.text-start.color-acento-contenido.mb-1(
                   texto="He is 55."
-                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-6.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-6.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
 
@@ -961,14 +961,14 @@
                 p.mb-0.w-100.ps-4 El bebé tiene 3 meses.
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                   texto="The baby is 3 months old."
-                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-7.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-7.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
               .col-12.col-xl-6.px-2
                 p.mb-0.w-100.ps-4 Ella tiene 10 meses.
                 TarjetaAudio.w-100.text-start.color-acento-contenido.mb-1(
                   texto="She is 10 months old."
-                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-8.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-8.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
 
@@ -978,42 +978,42 @@
               .col-12.col-xl-6.px-2
                 TarjetaAudio.mt-4.w-100.text-start.color-acento-contenido.mb-1(
                   texto="How old are you"
-                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-9.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-9.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ps-0.ps-md-4.text-start ¿Cuántos años tienes?
               .col-12.col-xl-6.px-2
                 TarjetaAudio.audio-green.mt-4.w-100.text-start.color-acento-contenido.mb-1(
                   texto="I'm twenty-eight years old."
-                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-10.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-10.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ps-0.ps-md-4.text-start Tengo veintiocho años.
               .col-12.col-xl-6.px-2.mt-4
                 TarjetaAudio.mt-4.w-100.text-start.color-acento-contenido.mb-1(
                   texto="How old is Claudia?"
-                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-11.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-11.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ps-0.ps-md-4.text-start ¿Cuántos años tiene Claudia?
               .col-12.col-xl-6.px-2.mt-4
                 TarjetaAudio.audio-green.mt-4.w-100.text-start.color-acento-contenido.mb-1(
                   texto="She's 40."
-                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-12.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-12.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ps-0.ps-md-4.text-start Ella tiene 40.
               .col-12.col-xl-6.px-2.mt-4
                 TarjetaAudio.mt-4.w-100.text-start.color-acento-contenido.mb-1(
                   texto="How old is your baby?"
-                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-13.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-13.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ps-0.ps-md-4.text-start ¿Cuántos años tiene tu bebé?
               .col-12.col-xl-6.px-2.mt-4
                 TarjetaAudio.audio-green.mt-4.w-100.text-start.color-acento-contenido.mb-1(
                   texto="He’s three months old."
-                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-14.mp3')"
+                  :audio="require('@/assets/curso/temas/audios/personal_information/3_6-age-edad/3_6-14.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ps-0.ps-md-4.text-start Él tiene tres meses.

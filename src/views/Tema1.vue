@@ -11,7 +11,7 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Tabla 1
       span Condiciones presente simple
-    
+
     .d-flex.flex-wrap.px-2.px-lg-4.pt-4.mb-5(style="background-color: #6B8DFF;")
       .col-lg-4.mb-4.mb-lg-0.mx-auto
         img(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 262px").mx-auto
@@ -23,62 +23,62 @@
             span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo:
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Colombia has a huge hotel industry."
-              :audio="require('@/assets/curso/temas/audios/1_introducción_PS/1-1.mp3')"
+              :audio="require('@/assets/curso/temas/audios/1_introduccion_PS/1-1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = true"
             )
             p.ps-3 Colombia tiene una enorme industria hotelera.
-        
+
         .tarjeta-content-t1.p-2.px-md-4
           .container-card
             p.ps-3.fw-bold Condición
             p.ps-3.mb-4 Al hablar de estados que tienen regularidad o periodicidad.
-            span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo: 
+            span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo:
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="I go to the dentist every year."
-              :audio="require('@/assets/curso/temas/audios/1_introducción_PS/1-2.mp3')"
+              :audio="require('@/assets/curso/temas/audios/1_introduccion_PS/1-2.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.ps-3 Voy al dentista cada año.
-        
+
         .tarjeta-content-t1.p-2.px-md-4
           .container-card
             p.ps-3.fw-bold Condición
             p.ps-3.mb-4 Cuando se hace referencia a rutinas, hábitos o cosas que se realizan con cierta frecuencia.
-            span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo: 
+            span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo:
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Ana wakes up every day at 6:00 am."
-              :audio="require('@/assets/curso/temas/audios/1_introducción_PS/1-3.mp3')"
+              :audio="require('@/assets/curso/temas/audios/1_introduccion_PS/1-3.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.ps-3 Ana se despierta todos los días a las 6:00 am.
-        
+
         .tarjeta-content-t1.p-2.px-md-4
           .container-card
             p.ps-3.fw-bold Condición
             p.ps-3.mb-4 Al dar instrucciones, indicaciones o señales.
-            span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo: 
+            span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo:
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="You turn left and then go down Oak Street."
-              :audio="require('@/assets/curso/temas/audios/1_introducción_PS/1-4.mp3')"
+              :audio="require('@/assets/curso/temas/audios/1_introduccion_PS/1-4.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.ps-3 Gire a la izquierda y luego baje por la calle Oak.
-        
+
         .tarjeta-content-t1.p-2.px-md-4
           .container-card
             p.ps-3.fw-bold Condición
             p.ps-3.mb-4 Cuando se enuncian hechos, compromisos, citas que se van a llevar a cabo en un momento determinado.
-            span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo: 
+            span(style="font-size: 13px; font-weight: bold;").ps-3 Por ejemplo:
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Next week is the championship."
-              :audio="require('@/assets/curso/temas/audios/1_introducción_PS/1-5.mp3')"
+              :audio="require('@/assets/curso/temas/audios/1_introduccion_PS/1-5.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
             p.ps-3 La próxima semana es el campeonato.
 
     .titulo-segundo.color-acento-contenido.mb-5(data-aos="fade-right")
       h2#t_1_1 1.1 Conceptos gramaticales
-    
+
     p(data-aos="fade-left") Antes de entrar de lleno a la estructura gramatical de las oraciones en presente simple, se debe entender cómo se conjugan correctamente los verbos en este tiempo.
       br
       br
@@ -338,7 +338,7 @@
           img(src="@/assets/curso/temas/tema1/alerta.svg" style="max-width: 85px").mt-4.mb-5
           h4.text-white(style="font-size: 22px") ¿Por qué se pone <em style="color: #FFD947 !important">“to”</em> antes del verbo?
           p.text-white La partícula <em style="color: #FFD947 !important">to</em> es usada con la forma base de un verbo para indicar que el verbo está en infinitivo.
-    
+
     p.mb-5(data-aos="fade-left") Ahora, en concordancia gramatical entre el verbo y el sujeto <em style="color: #FF5F65 !important; font-weight: bold;">(subject verb agreement)</em>, se determina que, cuando se conjuga en el tiempo presente simple, se pone, después del sujeto correspondiente, la forma base del verbo (sin la partícula to) y este solo se modifica cuando está conjugado con la tercera persona singular. <b>Se debe tener cuidado porque, según sea el caso el verbo, podría terminar en -s, -es o –ies:</b>
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -521,15 +521,15 @@
 
     .titulo-segundo.color-acento-contenido.mb-5(data-aos="fade-right")
       h2#t_1_2 1.2 Tercera persona singular
-    
+
     p.mb-5(data-aos="fade-left") Para la conjugación de verbos en presente simple para la tercera persona singular, existen 6 reglas que se detallan a continuación:
 
     figure.mb-5.video1(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/uUlq-MW18f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+
     p.mb-5(data-aos="fade-right") Los verbos irregulares <em style="color: #FF5F65 !important; font-weight: bold;">to be</em> y <em style="color: #FF5F65 !important; font-weight: bold">to have</em>, junto con el verbo <em style="color: #FF5F65 !important; font-weight: bold">to do</em>, son especiales, porque no solo funcionan como verbos, sino que, en algunos casos y en distintos tiempos verbales, también hacen la función de auxiliar:
-    
+
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Tabla 3
       span Verbos distintivos <em>To be</em>, <em>to have</em> y <em>to do</em>
@@ -685,7 +685,7 @@
 
     .titulo-segundo.color-acento-contenido.mb-5(data-aos="fade-left")
       h2#t_1_3 1.3 Estructuras
-    
+
     p.mb-5(data-aos="fade-right") Las siguientes son las formas para estructurar oraciones que afirmen, nieguen o hagan preguntas sobre diferentes enunciados. La configuración de estas oraciones es un poco diferente a la del idioma español, razón por la cual se debe estar atento al orden y uso de las palabras, como se describe a continuación:
 
     TabsB.color-primario.mb-5.tabs-custom(data-aos="fade-left")
@@ -823,7 +823,7 @@
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.ms-0.ms-md-4.ps-3 ¿Él vive en Colombia?
-              
+
             .tarjeta.color-primario.p-3.mb-5.w-100(style="border-radius: 0")
               .row.justify-content-around.align-items-center
                 .col-3.col-sm-2.col-lg-1
@@ -939,7 +939,7 @@
                 )
                 p.ms-0.ms-md-4.ps-3 Sí.
 
-    h3(data-aos="fade-left") Preguntas informativas / Information questions 
+    h3(data-aos="fade-left") Preguntas informativas / Information questions
     p.mb-5(data-aos="fade-right") También conocidas como “preguntas abiertas”, son preguntas cuya función es pedir información al interlocutor. A diferencia de las preguntas cerradas, que solo confirman o niegan una afirmación, las preguntas abiertas en inglés tienen un uso específico según el contexto y lugar donde se usen (piden un dato en específico). Las preguntas abiertas en inglés se caracterizan por tener al principio de su estructura una palabra que incluye las letras W y H en ellas:
 
     .d-flex.flex-wrap.mb-5(data-aos="fade-left")
@@ -970,7 +970,7 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p ¿Qué te gusta?
-          
+
           .tarjeta.color-acento-botones--borde.p-4(titulo="2. Where" style="background-color: #FFDFE0; border: none;")
             h4 Where
             p Pregunta por un <b>lugar</b> o una <b>ubicación</b> según el contexto de la pregunta.  Corresponde a la pregunta <b>"¿dónde?"</b>.
@@ -994,7 +994,7 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.ps-3 ¿Dónde estudias?
-          
+
           .tarjeta.color-acento-botones--borde.p-4(titulo="3. When" style="background-color: #FFDFE0; border: none;")
             h4 When
             p Pregunta por el <b>momento</b> en que una acción se realiza o tuvo lugar. Corresponde a la pregunta <b>"¿cuándo?"</b>.
@@ -1059,7 +1059,7 @@
             .d-block.p-4.px-5(style="background-color: #A6BBFF; border-radius: 5px")
               p.mb-0 <b>Warning! / ¡Advertencia!</b><br>
                 |* Cuando se usa <em style="color: #FF5F65; font-weight: bold;">WHO</em> para buscar el sujeto de la oración y no el objeto, la pregunta no tiene ni sujeto ni auxiliar en los tiempos simples; sin embargo, el verbo se conjuga como tercera persona del singular.
-          
+
           .tarjeta.color-acento-botones--borde.p-4(titulo="5. Why" style="background-color: #FFDFE0; border: none;")
             h4 Why
             p Pregunta por un <b>motivo</b> o una <b>razón</b>. Corresponde a la pregunta <b>"¿por qué?"</b>.
@@ -1083,7 +1083,7 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.ps-3 ¿Por qué no?
-      
+
           .tarjeta.color-acento-botones--borde.p-4(titulo="6. How" style="background-color: #FFDFE0; border: none;")
             h4 How
             p Pregunta por el <b>modo</b> o la <b>forma</b> en que se realiza una acción. Corresponde a la pregunta <b>"¿cómo?"</b>.
@@ -1137,7 +1137,7 @@
                 p.mb-0.ps-3 ¿Cuánto helado quieres?
 
     p.mb-5(data-aos="fade-left") En general, la estructura de las preguntas informativas es la siguiente:
-    
+
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Tabla 4
       span Estructura preguntas informativas
@@ -1193,12 +1193,12 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
 
-    p.mb-5(data-aos="fade-left") Ahora, observe todo el resumen del presente simple a partir de un verbo en sus tres formas: 
+    p.mb-5(data-aos="fade-left") Ahora, observe todo el resumen del presente simple a partir de un verbo en sus tres formas:
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 4
       span Resumen de conjugación de estructuras
-    
+
     h3(data-aos="fade-left") <em>Present Simple: to eat</em> (comer)
 
     .d-flex.flex-wrap.mb-5(style="margin-top: 90px" data-aos="fade-right")
@@ -1347,7 +1347,7 @@
           h2 <em>This is what we do.</em> / Esto es lo que hacemos.
         p.mb-4 En las siguientes oraciones del tiempo presente simple (<em>Simple Present Tense</em>), escribir la forma correcta en la que va conjugado el verbo que se encuentra entre los paréntesis.
         .tarjeta.actividad.p-3
-          .row.justify-content-around.align-items-center            
+          .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Completar los espacios.
             .col-auto
