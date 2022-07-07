@@ -648,10 +648,11 @@
               )
               p.mb-0.ps-4.text-start Ella es mi madre.
             .col-12.col-xl-3.px-2
-              a.btn-openmodal.boton.color-acento-contenido.indicador__container.w-100(@click="modal1 = true")
+              a.btn-openmodal.boton.color-acento-contenido.indicador__container.w-100(@click="modalIMG = true" @mouseover="mostrarIndicador1 = false")
                 span.text-white.fw-bold.mx-auto Estructura de la familia
-                .indicador--click(v-if="mostrarIndicador")
-
+                .indicador--click(v-if="mostrarIndicador1")
+    ModalA.modal-vocabulary(:abrir-modal.sync="modalIMG")
+      img(src="@/assets/curso/temas/tema3/img-modal.svg")
     ModalA.modal-vocabulary(:abrir-modal.sync="modal1")
       .d-flex.flex-wrap
         .col-lg-6.col-xl-3.mx-auto
@@ -1032,12 +1033,14 @@ export default {
   name: 'Tema3',
   components: { Audio, TarjetaAudio },
   data: () => ({
+    modalIMG: false,
     modal1: false,
     modal2: false,
     modal3: false,
     modal4: false,
     modal5: false,
     mostrarIndicador: true,
+    mostrarIndicador1: true,
     mostrarIndicador2: true,
     mostrarIndicador3: true,
     mostrarIndicador4: true,
@@ -1149,9 +1152,9 @@ export default {
         },
         {
           personaje: 'Immigration officer',
-          textoIng: 'FALTA! <br>Who did you move to the *** with?',
+          textoIng: 'Who did you move to the *** with?',
           textoEsp: '¿Con quién te mudaste al país?',
-          audio: require('@/assets/curso/temas/audios/actividad/Immigration_officer/8.mp3'),
+          audio: require('@/assets/curso/temas/audios/actividad/Immigration_officer/9.mp3'),
           palabra: 'Country',
         },
         {
