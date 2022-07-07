@@ -103,7 +103,7 @@
                 .d-flex.align-items-center.ms-5.mt-5(style="background-color: #3C3FA7; max-height: 65px;")
                   img(src="@/assets/curso/temas/tema1/alerta.svg" style="min-height: 85px; max-width: 85px; margin-top: -20px; margin-left: -43px")
                   p.mb-0.text-white.py-3.px-4.fw-bold En inglés las nacionalidades siempre se escriben con la primera letra <br>en mayúscula.
-        
+
         .d-flex.flex-wrap.align-items-center
           .col-lg-4.mb-4.mb-lg-0.mx-auto
             img(src="@/assets/curso/temas/tema3/img-5.svg" style="max-width: 325px").mx-auto.mb-5
@@ -244,11 +244,12 @@
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                     p.ps-3.fw-bold(style="color: #3C3FA7") You have 16 years. ( Incorrecto )
-                
+
                 .d-flex.align-items-center.ms-5.mt-5(style="background-color: #3C3FA7; max-height: 65px;")
                   img(src="@/assets/curso/temas/tema1/alerta.svg" style="min-height: 85px; max-width: 85px; margin-top: -20px; margin-left: -43px")
-                  p.mb-0.text-white.py-3.px-4 En inglés, los números de teléfono <b>se dicen dígito por dígito</b>, no el número completo.
-    
+                  p.mb-0.text-white.py-3.px-4 Es opcional decir <em>“years old”</em>. Aunque, si bien esta parte se puede omitir, cuando se usa debe ir completa, no puede ir <em>“years”</em> solo.
+
+
     h4.mb-5(data-aos="fade-right") Family / Familia
     p.mb-5(data-aos="fade-right") Para cerrar el componente y la información personal, es necesario apropiar el vocabulario de términos familiares:
 
@@ -291,7 +292,7 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   p.ps-4.text-start Esposa
-                
+
           .col-lg-6.ps-lg-2.mt-5.mt-lg-0.pt-5.pt-lg-0
             .card-t3-pestanas-2
               img(src="@/assets/curso/temas/tema3/img-card-2.svg" style="max-width: 125px").mx-auto.img-card
@@ -395,7 +396,7 @@
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.w-100.ps-4.text-start Tataranieta
-                
+
           .col-lg-6.ps-lg-2.mt-5.mt-lg-0.pt-5.pt-lg-0
             .card-t3-pestanas-2
               img(src="@/assets/curso/temas/tema3/img-card-2.svg" style="max-width: 125px").mx-auto.img-card
@@ -448,7 +449,7 @@
                   :audio="require('@/assets/curso/temas/audios/3_7_Family_Familia/Greatgreat grandson.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
-                p.w-100.ps-4.text-start Tataranieto 
+                p.w-100.ps-4.text-start Tataranieto
 
       .py-3.py-md-4(titulo='<b><em style="color: #FF5F65 !important;">Extended Family</em> <br> Familia extendida</b>')
         .d-flex.flex-wrap.col-lg-10.mx-auto
@@ -474,7 +475,7 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   p.ps-4.text-start Sobrina
-                
+
           .col-12.col-lg-6.ps-lg-2.mt-5.mt-lg-0.pt-5.pt-lg-0.mx-auto
             .card-t3-pestanas-2
               img(src="@/assets/curso/temas/tema3/img-card-2.svg" style="max-width: 125px").mx-auto.img-card
@@ -504,7 +505,7 @@
               p.mb-0.ps-4.text-start Primo/Prima
             .col-12.col-md-5.col-lg-6.ps-4
               p.mb-0 (sin importar el género, no importa si es hombre o mujer)
-      
+
       .py-3.py-md-4(titulo='<b><em style="color: #FF5F65 !important;">The In-Laws</em> <br> La familia “política”</b>')
         .d-flex.flex-wrap.col-lg-10.mx-auto
           p.w-100 <b><em style="color: #FF5F65 !important;">The In-Laws</em> / La familia “política”</b>
@@ -533,7 +534,7 @@
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.ps-4.text-start Cuñada
-                
+
           .col-lg-6.ps-lg-2.mt-5.mt-lg-0.pt-5.pt-lg-0
             .card-t3-pestanas-2
               img(src="@/assets/curso/temas/tema3/img-card-2.svg" style="max-width: 125px").mx-auto.img-card
@@ -596,7 +597,7 @@
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                   p.ps-4.text-start Medio hermana
-                
+
           .col-lg-6.ps-lg-2.mt-5.mt-lg-0.pt-5.pt-lg-0
             .card-t3-pestanas-2
               img(src="@/assets/curso/temas/tema3/img-card-2.svg" style="max-width: 125px").mx-auto.img-card
@@ -719,8 +720,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-white Puede consultar más vocabulario a través de Internet. 
-                    | Recomendamos el siguiente enlace: 
+                  p.text-white Puede consultar más vocabulario a través de Internet.
+                    | Recomendamos el siguiente enlace:
                     | <b>Material UP. (2020, September 07). Países y nacionalidades en inglés.</b>
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="'https://www.youtube.com/watch?v=FLG0ENBTIiY'" target="_blank")
@@ -799,7 +800,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-white Puede consultar más vocabulario a través de Internet. 
+                  p.text-white Puede consultar más vocabulario a través de Internet.
                     | Recomendamos el siguiente enlace: <b><em>letsgo!</em> (2016, June 14). Vocabulario inglés-español "PROFESIONES".</b>
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="'https://www.youtube.com/watch?v=EcBxsMpyUTE'" target="_blank")
@@ -875,8 +876,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-white Puede consultar más vocabulario a través de Internet. 
-                    | Recomendamos el siguiente enlace: 
+                  p.text-white Puede consultar más vocabulario a través de Internet.
+                    | Recomendamos el siguiente enlace:
                     | <b>Material UP. (2020, September 07). Países y nacionalidades en inglés.</b>
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="'https://www.britishcouncil.es/blog/como-dar-direcciones-en-ingles'" target="_blank")
@@ -900,7 +901,7 @@
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
               p.mb-0.ps-0.ps-md-4.text-start Mi número telefónico es cinco, siete, tres, ocho, cero, seis.
-          
+
           .tarjeta.p-3.py-4.d-flex.align-items-start(style="background-color: white")
             img(src="@/assets/curso/temas/tema3/num-2.svg" style="max-width: 59px; margin-left: -40px")
             .d-flex.flex-wrap.px-4
@@ -987,7 +988,7 @@
                   :audio="require('@/assets/curso/temas/audios/personal_information/3_6 age edad/3_6-10.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
-                p.mb-0.ps-0.ps-md-4.text-start Tengo treinta años.
+                p.mb-0.ps-0.ps-md-4.text-start Tengo veintiocho años.
               .col-12.col-xl-6.px-2.mt-4
                 TarjetaAudio.mt-4.w-100.text-start.color-acento-contenido.mb-1(
                   texto="How old is Claudia?"
@@ -1016,7 +1017,7 @@
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                 p.mb-0.ps-0.ps-md-4.text-start Él tiene tres meses.
-    
+
     .titulo-segundo.color-acento-contenido.mb-5(data-aos="fade-right")
       h2 Actividad didáctica
 
